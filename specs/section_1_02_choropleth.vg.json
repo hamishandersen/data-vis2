@@ -1,0 +1,133 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "description": "Gender gap in weekly participation by state, 2025",
+    "width": "container",
+    "height": 450,
+    "projection": {
+        "type": "conicEqualArea",
+        "parallels": [
+            -18,
+            -36
+        ],
+        "rotate": [
+            -132,
+            0
+        ]
+    },
+    "layer": [
+        {
+            "data": {
+                "url": "data/australian_states.json",
+                "format": {
+                    "type": "topojson",
+                    "feature": "STE_2021_AUST_GDA2020"
+                }
+            },
+            "transform": [
+                {
+                    "lookup": "properties.STE_NAME21",
+                    "from": {
+                        "data": {
+                            "url": "data/state_gender_gap_2025.csv"
+                        },
+                        "key": "state_name",
+                        "fields": [
+                            "gap_weekly",
+                            "females_weekly",
+                            "males_weekly"
+                        ]
+                    }
+                }
+            ],
+            "mark": {
+                "type": "geoshape",
+                "stroke": "white",
+                "strokeWidth": 1.2
+            },
+            "encoding": {
+                "color": {
+                    "field": "gap_weekly",
+                    "type": "quantitative",
+                    "scale": {
+                        "scheme": "redblue",
+                        "domain": [
+                            -12,
+                            12
+                        ]
+                    },
+                    "legend": {
+                        "title": "Women minus men (%)",
+                        "orient": "top-right",
+                        "gradientLength": 160,
+                        "titleFontSize": 11,
+                        "labelFontSize": 10
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "properties.STE_NAME21",
+                        "type": "nominal",
+                        "title": "State"
+                    },
+                    {
+                        "field": "females_weekly",
+                        "type": "quantitative",
+                        "format": ".1f",
+                        "title": "Women (%)"
+                    },
+                    {
+                        "field": "males_weekly",
+                        "type": "quantitative",
+                        "format": ".1f",
+                        "title": "Men (%)"
+                    },
+                    {
+                        "field": "gap_weekly",
+                        "type": "quantitative",
+                        "format": "+.1f",
+                        "title": "Gap (points)"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "url": "data/state_weekly_counts_2025.csv",
+                "format": {
+                    "type": "csv"
+                }
+            },
+            "mark": {
+                "type": "text",
+                "font": "Google Sans",
+                "fontSize": 11,
+                "fontWeight": "bold",
+                "color": "#202124",
+                "strokeWidth": 0.5
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "longitude",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "latitude",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "state",
+                    "type": "nominal"
+                }
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "axis": {
+            "labelFont": "Google Sans",
+            "titleFont": "Google Sans"
+        }
+    }
+}

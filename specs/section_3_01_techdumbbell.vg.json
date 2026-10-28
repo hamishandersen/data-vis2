@@ -1,0 +1,147 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "description": "Share of adult players who use each type of technology, women vs men, by age group (2025)",
+    "data": {
+        "url": "data/technology_by_gender.csv"
+    },
+    "width": "container",
+    "height": {
+        "step": 26
+    },
+    "params": [
+        {
+            "name": "ageSel",
+            "value": "All ages",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "All ages",
+                    "15-17",
+                    "18-24",
+                    "25-34",
+                    "35-44",
+                    "45-54",
+                    "55-64",
+                    "65+"
+                ],
+                "name": "Age group: "
+            }
+        }
+    ],
+    "transform": [
+        {
+            "filter": "datum.age_group === ageSel"
+        }
+    ],
+    "encoding": {
+        "y": {
+            "field": "technology",
+            "type": "nominal",
+            "sort": [
+                "Music apps",
+                "Headphones/speakers",
+                "Activity tracking or training apps",
+                "Wearable technology (e.g. Fitbit)",
+                "Maps and GPS apps",
+                "Fitness/exercise video sessions",
+                "Indoor smart trainers or treadmills",
+                "Apps used during activity (e.g. scoring)",
+                "Websites or online tools",
+                "Bike computers/speedometers",
+                "Free social media sites/pages",
+                "Motion-sensing exercise games",
+                "Cameras/GoPros",
+                "Online training platforms (e.g. Zwift)",
+                "Paid online programs"
+            ],
+            "title": null,
+            "axis": {
+                "domain": false,
+                "ticks": false,
+                "labelPadding": 8,
+                "labelLimit": 260
+            }
+        },
+        "x": {
+            "field": "share",
+            "type": "quantitative",
+            "title": "Share of adult players who use it",
+            "scale": {
+                "domain": [
+                    0,
+                    0.8
+                ]
+            },
+            "axis": {
+                "format": "%",
+                "tickCount": 8,
+                "gridColor": "#e6e3d8"
+            }
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "line",
+                "strokeWidth": 3,
+                "color": "#bdbab0"
+            },
+            "encoding": {
+                "detail": {
+                    "field": "technology",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "circle",
+                "size": 130,
+                "opacity": 1
+            },
+            "encoding": {
+                "color": {
+                    "field": "gender",
+                    "type": "nominal",
+                    "scale": {
+                        "domain": [
+                            "Females",
+                            "Males"
+                        ],
+                        "range": [
+                            "#675193",
+                            "#ca8861"
+                        ]
+                    },
+                    "legend": {
+                        "title": null,
+                        "orient": "top"
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "technology",
+                        "type": "nominal",
+                        "title": "Technology"
+                    },
+                    {
+                        "field": "gender",
+                        "type": "nominal",
+                        "title": "Group"
+                    },
+                    {
+                        "field": "age_group",
+                        "type": "nominal",
+                        "title": "Age group"
+                    },
+                    {
+                        "field": "share",
+                        "type": "quantitative",
+                        "format": ".1%",
+                        "title": "Players using it"
+                    }
+                ]
+            }
+        }
+    ]
+}

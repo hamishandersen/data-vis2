@@ -1,0 +1,15 @@
+activity,men_pct,women_pct,gap_pp,leans,order
+Walking,42.5,57.8,15.3,More women,1
+Pilates,1.2,13.0,11.8,More women,2
+Yoga,1.6,8.5,6.9,More women,3
+Bush walking,16.3,18.6,2.3,More women,4
+Fitness or gym,33.1,35.1,2.0,More women,5
+Swimming,14.5,16.3,1.8,Roughly equal,6
+Tennis,5.8,4.1,-1.7,Roughly equal,7
+Australian football,3.8,1.1,-2.7,More men,8
+Cricket,4.2,0.8,-3.4,More men,9
+Cycling,10.4,6.3,-4.1,More men,10
+Basketball,6.8,2.3,-4.5,More men,11
+Running,19.0,14.2,-4.8,More men,12
+Golf,7.6,1.7,-5.9,More men,13
+Soccer,8.9,2.5,-6.4,More men,14

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FIT3179 Data Visualisation 2</title>
+
+    <!-- Pure CSS Framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.1.0/build/pure-min.css"
+        integrity="sha384-kj0X2NG2KHBie8Tq8fH1kxnyWM9XsXQpq7XdwbKmFKjwwaXGKBlB2Klu3VOltSFx" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&display=swap">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <main class="page">
+        <!-- Main  Header -->
+        <header class="hero">
+            <p class="eyebrow">Sporting participation in Australia: who, what, when, where and why</p>
+            <h1>Sport participation in Australia</h1>
+
+            <p class="hero-intro">
+                Most Australian adults participate in physical activity in some way, whether by joining a local running
+                club, hitting the gym, or going for a walk. But who participates, which activities are most popular, and
+                how do factors such as age, gender and location influence participation?
+
+                This webpage explores these questions by comparing two datasets a decade apart: AusPlay 2025 and ABS
+                2013–14. By examining participation patterns across different demographics and over time, it reveals how
+                Australia's sporting landscape has changed, which trends have persisted, and who may still be missing
+                out.
+            </p>
+
+            <p class="byline">By Hamish Andersen · October 2026</p>
+
+            <ul class="hero-stats">
+                <li><strong>86%</strong><span> of adults took part in some activity in 2025</span></li>
+                <li><strong>1 in 2</strong><span> are active three or more times a week</span></li>
+                <li><strong>3.2 million</strong><span> adults did not take part at all</span></li>
+            </ul>
+        </header>
+
+        <!-- Section 2 -->
+        <header class="section-head">
+            <p class="eyebrow">Section 1</p>
+            <h2>The National Picture</h2>
+        </header>
+
+        <!-- VIS 01 -->
+        <section class="story">
+            <div class="story-chart">
+                <div class="card">
+                    <h2 class="chart-title">Stacked Bar Chart by Age</h2>
+                    <p class="chart-subtitle">How often each age group takes part in sport or physical activity</p>
+                    <div id="vis-01"></div>
+                    <p class="source">Source: AusPlay 2025</p>
+                </div>
+            </div>
+
+            <aside class="story-text">
+                <h3 class="headline">Older adults lead in daily activity, but over-65s face the highest inactivity gap
+                </h3>
+                <p>Normalising activity frequencies into 100% stacked bars allows us to compare activity habits across
+                    age
+                    groups on an equal scale, regardless of sample size differences. This layout highlights how regular
+                    movement
+                    habits shift as Australians transition through different life stages.
+                    <br><br>
+                    People aged 55–64 emerge as the most consistent exercisers, with 57% participating three or more
+                    times a
+                    week compared to just 48% of 35–44s. However, non-participation surges sharply in later life, with
+                    nearly a
+                    quarter of adults aged 65+ (24.6%) reporting no activity at all.
+                </p>
+            </aside>
+        </section>
+
+        <!-- VIS 02 but added later -->
+        <section class="story">
+            <div class="story-chart">
+                <div class="card">
+                    <h3 class="chart-title">Top 15 activites for each age group</h3>
+                    <p class="chart-subtitle">Shows the 15 activities with the highest participation rates for the
+                        selected age grou</p>
+                    <div id="vis-12"></div>
+                    <p class="source">Source: AusPlay 2025</p>
+                </div>
+            </div>
+
+            <aside class="story-text">
+                <h3 class="headline">The masses love their walking, running and gym </h3>
+                <p>Gym/fitness, recreational walking, and running/jogging consistently rank among the top 3–5 most
+                    popular activities
+                    across age groups, highlighting their broad appeal across the Australian population.
+                    This suggests that accessible, flexible forms of physical activity remain popular regardless of age,
+                    although the relative
+                    participation rates vary
+                    between age groups.</p>
+            </aside>
+        </section>
+
+
+        <!-- VIS 02 -->
+        <section class="story">
+            <div class="story-chart">
+                <div class="card">
+                    <h3 class="chart-title">National difference in gender participation</h3>
+                    <p class="chart-subtitle">The darker the blue, the more women are participating in sports than men,
+                        in that
+                        state.</p>
+                    <div id="vis-02"></div>
+                    <p class="source">Source: AusPlay 2025</p>
+                </div>
+            </div>
+
+            <aside class="story-text">
+                <h3 class="headline">The gender participation gap is almost zero nationally</h3>
+                <p>Using a diverging geographic color scale allows us to instantly visualize the net difference between
+                    female
+                    and male participation rates across state and territory borders, highlighting regional imbalances
+                    that raw
+                    totals might obscure.
+                    <br><br>
+                    The gender participation gap is remarkably close to zero across most of the country, heavy
+                    population centers like NSW, QLD, SA, and VIC remain tightly aligned within a
+                    1-point margin. However, women strikingly lead by a whopping 10.8 percentage points in the Northern
+                    Territory, 5.7 points in the Australian Capital Territory and 4.7 points in Tasmania.
+                </p>
+            </aside>
+        </section>
+
+        <!-- children participation -->
+        <section class="story">
+            <div class="story-chart">
+                <div class="card">
+                    <h3 class="chart-title">Child Participation across Australia: 2024 vs 2025</h3>
+                    <p class="chart-subtitle">An overview of shifts in regular weekly activity across different states
+                        and territories.</p>
+                    <div id="vis-14"></div>
+                    <p class="source">Source: AusPlay 2024/2025</p>
+                </div>
+            </div>
+
+            <aside class="story-text">
+                <h3 class="headline">Kids are finally getting off the couch!</h3>
+                <p>A comparison between 2024 and 2025 reveals a strong nationwide upward trend in youth sports participation, driven by
+                significant surges in several key jurisdictions. South Australia led the growth with a remarkable 7.4% absolute increase, closely followed by the Northern Territory, which surged by 6.1%. 
+                <br><br>
+                States such as Victoria, New South Wales, Queensland and the Australian Capital Territory showed a marginal increase, Tasmania stood as the sole exception to the trend, experiencing a marginal contraction of 0.3%.
+                Overall, the shifting color gradients across the continent highlight a highly successful period of growing engagement in
+                weekly physical activities for Australian children.
+                </p>
+            </aside>
+        </section>
+
+
+        <!-- VIS 03 -->
+        <section class="story">
+            <div class="story-chart">
+                <div class="card">
+                    <h3 class="chart-title">Weekly sports participation across Australia</h3>
+                    <p class="chart-subtitle">A comparison of weekly participation rates and estimated numbers of
+                        participants across Australian states and
+                        territories in 2025.</p>
+                    <div id="vis-03"></div>
+                    <p class="source">Source: AusPlay 2025</p>
+                </div>
+            </div>
+
+            <aside class="story-text">
+                <h3 class="headline">Participation rates and participant numbers tell different stories</h3>
+                <p>Larger states can have more weekly participants because of their larger populations, while
+                    participation rates show the
+                    proportion of people who take part. Comparing both measures helps distinguish where sport is most
+                    popular proportionally
+                    from where the greatest number of people participate.
+                    <br><br>
+                    Despite its smaller population size, Australian Capital Territory has the highest noramlised
+                    participation rate across
+                    australia with 78.3% of adults participating weekly in sports, with Victoria trailing behind at
+                    70.5%
+                </p>
+            </aside>
+        </section>
+
+        <!-- Section 2 -->
+        <header class="section-head">
+            <p class="eyebrow">Section 2</p>
+            <h2>A Decade Apart</h2>
+        </header>
+
+        <section class="story">
+            <div class="story-chart">
+                <div class="card">
+                    <h3 class="chart-title">State Ranking Shifts Over a Decade</h3>
+                    <p class="chart-subtitle">A comparison of state and territory sports participation ranks between ABS
+                        (2013-14) and AusPlay (2025).</p>
+                    <div id="vis-04"></div>
+                    <p class="source">Source: AusPlay 2025, ABS 2013-2014</p>
+                </div>
+            </div>
+
+            <aside class="story-text">
+                <h3 class="headline">Tracking relative shifts rather than raw numbers</h3>
+                <p>Because AusPlay (2025) and the ABS (2013-14) define and measure participation differently, comparing
+                    raw percentages
+                    directly across decades can be misleading. Looking at changes in state and territory rankings as
+                    workaround
+                    instead reveals how regional performance has evolved over the decade from 2013/2014 to 2025.
+                    <br> <br>
+                    While the Australian Capital Territory holds steady at the top, states like Victoria and
+                    Northern Territory have climbed the ranks, reflecting shifting engagement levels.
+                </p>
+            </aside>
+        </section>
+
+
+        <section class="story">
+            <div class="story-chart">
+                <div class="card">
+                    <h3 class="chart-title">Age Participation Gap From the National Average</h3>
+                    <p class="chart-subtitle">Comparing how far each age group's participation rate sat above or below
+                        the national average in 2013-14 versus 2025.</p>
+                    <div id="vis-05"></div>
+                    <p class="source">Source: AusPlay 2025, ABS 2013-2014</p>
+                </div>
+            </div>
+
+            <aside class="story-text">
+                <h3 class="headline">Centering the national average to spot generational trends</h3>
+                <p>Plotting age groups as a variance above or below the national baseline removes overall population
+                    growth distortions in order to
+                    highlight generational changes. This approach isolates whether specific age cohorts are becoming
+                    more or less active
+                    relative to the rest of the country over the decade.
+                    <br> <br>
+                    A decade ago, teenagers and young adults sat dramatically higher than the national average, but the
+                    2025 curve has
+                    flattened significantly, showing a more evenly distributed participation pattern across age groups
+
+                </p>
+            </aside>
+        </section>
+
+        <section class="story">
+            <div class="story-chart">
+                <div class="card">
+                    <h3 class="chart-title">Popularity Shifts of Physical Activities</h3>
+                    <p class="chart-subtitle">Tracking the rise and fall of activity rankings between ABS (2013-14) and
+                        AusPlay (2025).</p>
+                    <div id="vis-06"></div>
+                    <p class="source">Source: AusPlay 2025, ABS 2013-2014</p>
+                </div>
+            </div>
+
+            <aside class="story-text">
+                <h3 class="headline">Connecting past and present to reveal changing preferences</h3>
+                <p>Slope graphs use direct visual connecting lines to show how individual categories swap positions
+                    between two distinct
+                    points in time. This makes it instantly clear which activities have surged in public favor and which
+                    have slipped down
+                    the ranks over the past ten years.
+                    <br> <br>
+                    Traditional team sports such as soccer and netball have experienced mixed movements, while
+                    individual flexible fitness
+                    pursuits like bush walking
+                    and pilates have climbed five or more places to surge in popularity.
+                </p>
+            </aside>
+        </section>
+
+
+        <!-- Section 3 -->
+        <header class="section-head">
+            <p class="eyebrow">Section 3</p>
+            <h2>Section 3: What we actually do</h2>
+        </header>
+
+        <section class="story">
+            <div class="story-chart">
+                <div class="card">
+                    <h3 class="chart-title">Popular Activities by Gender</h3>
+                    <p class="chart-subtitle">Comparing the percentage of women and men who take part in specific sports
+                        and recreational activities.</p>
+                    <div id="vis-10"></div>
+                    <p class="source">Source: AusPlay 2025</p>
+                </div>
+            </div>
+
+            <aside class="story-text">
+                <h3 class="headline">Mirrored axes expose gender divides in sports</h3>
+                <p>Back-to-back horizontal bars mirror women's and men's participation data from a shared central axis,
+                    enabling a direct
+                    visual comparison of activity preferences. This layout instantly exposes where participation styles
+                    overlap and where
+                    they diverge.
+                    <br> <br>
+                    Whilst recreational walking reigns supreme as the top activity for both genders, distinct splits
+                    emerge elsewhere: women
+                    show significantly higher participation in pilates and yoga, while men record higher numbers in
+                    soccer and golf. Various other singular, accessible activites such as bushwalking, swimming and gym
+                    all closely mirror one another between genders
+                </p>
+            </aside>
+        </section>
+
+        <section class="story">
+            <div class="story-chart">
+                <div class="card">
+                    <h3 class="chart-title">Children's Sports Rankings by Age Group</h3>
+                    <p class="chart-subtitle">How participation popularity ranks shift for children as they grow from
+                        ages 0-4 through to 12-14</p>
+                    <div id="vis-11"></div>
+                    <p class="source">Source: AusPlay 2025</p>
+                </div>
+            </div>
+
+            <aside class="story-text">
+                <h3 class="headline">Tracking the developmental journey of youth sports</h3>
+                <p>Tracing ranking trajectories across developmental age bands highlights how children's athletic
+                    interests evolve as they
+                    grow older. The multi-stage slope layout shows the transition from early childhood pastimes into
+                    organized teenage
+                    sports.
+                    <br> <br>
+                    Swimming and gymnastics dominate the early years (ages 0-8), but as children mature into their
+                    teens, team sports like
+                    soccer, basketball, and netball rapidly climb to claim the most popular spots.
+                </p>
+            </aside>
+        </section>
+
+        <!-- Section 4 -->
+        <header class="section-head">
+            <p class="eyebrow">Section 4</p>
+            <h2>Section 4: Barriers and Motivations: The Why</h2>
+        </header>
+
+        <section class="story">
+            <div class="story-chart">
+                <div class="card">
+                    <h3 class="chart-title">Barriers to Physical Activity by Age</h3>
+                    <p class="chart-subtitle">The primary reasons non-participants give for not engaging in sport or
+                        physical activity</p>
+                    <div id="vis-09"></div>
+                    <p class="source">Source: AusPlay 2025</p>
+                </div>
+            </div>
+
+            <aside class="story-text">
+                <h3 class="headline">Cross-referencing excuses with life stages</h3>
+                <p>Examining non-participants across multiple age brackets reveals that the obstacles keeping people on
+                    the couch change
+                    dramatically over a lifetime. Rather than viewing barriers as a monolith, this breakdown links
+                    specific hurdles to
+                    specific age groups.
+                    <br> <br>
+                    Poor health, injury, and aging are the dominant barriers for older Australians, whereas younger
+                    non-participants are somewhat
+                    more likely to point toward a lack of motivation or perceived laziness.
+                    The older one gets, the more the excuse seems to shift from a reason that is intangible to a reason
+                    that is tangible
+                </p>
+            </aside>
+        </section>
+
+        <section class="story">
+            <div class="story-chart">
+                <div class="card">
+                    <h3 class="chart-title">Motivation for Participation for each age group</h3>
+                    <p class="chart-subtitle">The primary reasons participants give for engaging in sport or
+                        physical activity</p>
+                    <div id="vis-13"></div>
+                    <p class="source">Source: AusPlay 2025</p>
+                </div>
+            </div>
+
+            <aside class="story-text">
+                <h3 class="headline">Regardless of age, we all particpate for mostly the same reasons</h3>
+                <p> Examining the motivations of participants across age groups reveals that the reasons for engaging in
+                    physical activity comes down to a few core categories.
+                    One being more physical such as for health and fitness, and to lose weight, and one to have fun and
+                    socialise with friends.
+                    While the relative importance of these factors may shift slightly with age, the overarching themes
+                    remain consistent.
+                    <br> <br>
+                    Majority of participants within the 65+ age band expectedly participate to keep fit, whilst
+                    motivations like weight
+                    loss, training purposes, and performance or competition drop to their lowest levels compared to all
+                    younger age
+                    brackets.
+                </p>
+            </aside>
+        </section>
+
+
+        <section class="story">
+            <div class="story-chart">
+                <div class="card">
+                    <h3 class="chart-title">Participation Variance by Life Factors</h3>
+                    <p class="chart-subtitle">How far each demographic group's participation sits above or below the
+                        national average (86%)</p>
+                    <div id="vis-08"></div>
+                    <p class="source">Source: AusPlay 2025</p>
+                </div>
+            </div>
+
+            <aside class="story-text">
+                <h3 class="headline">Those who are weathly and educated appear to be sporty also </h3>
+                <p>Setting the 86% national average as a vertical zero line allows us to immediately identify which life
+                    factors drag
+                    participation down and which ones elevate it. This diverging structure highlights systemic
+                    disparities linked to income,
+                    education, and health.
+                    <br> <br>
+                    Adults in higher household income brackets ($200k+) and those holding university degrees participate
+                    well above the
+                    national average, whereas lower income tiers and individuals with chronic health conditions face the
+                    largest negative
+                    gaps. Not finishing school seems to have the largest negative impact on participation, with a 20.4%
+                    gap below the national average.
+                </p>
+            </aside>
+        </section>
+
+
+
+        <!-- Section 5 -->
+        <header class="section-head">
+            <p class="eyebrow">Section 5</p>
+            <h2>Section 5: Behind the scenes</h2>
+        </header>
+
+        <section class="story">
+            <div class="story-chart">
+                <div class="card">
+                    <h3 class="chart-title">Technology Integration in Physical Activity</h3>
+                    <p class="chart-subtitle">The share of adult players who use various digital tools, apps, and
+                        wearables, broken down by gender</p>
+                    <div id="vis-07"></div>
+                    <p class="source">Source: AusPlay 2025</p>
+                </div>
+            </div>
+
+            <aside class="story-text">
+                <h3 class="headline">Keep the tunes going</h3>
+                <p>Comparing male and female adoption rates across a spectrum of digital tools helps uncover whether
+                    technology use during
+                    exercise is divided by gender. Breaking down tools from simple music apps to advanced GPS trackers
+                    shows how different
+                    segments of the population enhance their workouts.
+                    <br> <br>
+                    Music apps and headphones dominate as the most widely used technology for both men and women, while
+                    wearable devices and
+                    activity-tracking apps follow closely behind.
+                </p>
+
+            </aside>
+        </section>
+
+
+        <!-- Vega Engine Injection Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+
+        <!-- Main Runtime Application Logical Operations Script Control Script Entry File -->
+        <script src="js/main.js"></script>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-inner">
+
+            <section class="footer-sources">
+                <p class="eyebrow">Data and sources</p>
+                <h2>Where the numbers come from</h2>
+                <ol>
+                    <li>AusPlay National Data Tables, 30 April 2026 release, Australian Sports Commission: adult and
+                        child
+                        participation, January to December 2025, with 2024 comparisons.
+                        <a href="https://www.ausport.gov.au/clearinghouse/research/ausplay/results">Clearinghouse</a>
+                    </li>
+                    <li>Australian Bureau of Statistics: <a
+                            href="https://www.abs.gov.au/statistics/people/people-and-communities/participation-sport-and-physical-recreation-australia/latest-release">Participation
+                            in Sport and Physical
+                            Recreation, Australia, 2013-14</a> (cat. no. 4177.0).</li>
+                    <li>State boundaries gathered from <a href=https://www.naturalearthdata.com>NaturalEarth</a>,
+                        simplified with <a href="https://mapshaper.org/">Mapshaper</a>.
+                    </li>
+                </ol>
+                <p class="footer-note">AusPlay (2025) and ABS (2013-14) define participation differently, so Section 2
+                    compares ranks and gaps from the national average, not raw levels.</p>
+            </section>
+
+            <section class="footer-about">
+                <p class="eyebrow">About</p>
+                <h2>About this page</h2>
+                <p>Created by Hamish Andersen for FIT3179 Data Visualisation, Monash University, October 2026.</p>
+                <p>Charts built with <a href="https://vega.github.io/vega-lite/">Vega-Lite</a> and
+                    <a href="https://vega.github.io/vega/">Vega</a>.
+                </p>
+                <p class="footer-note">AI was used for various reasons, those being 
+                    assistance with wrangling raw Ausplay data into useable data,
+                    helping with formatting and styling,
+                    correcting issues in Vega-Lite specs where required.</p>
+            </section>
+
+        </div>
+    </footer>
+</body>
+
+</html>

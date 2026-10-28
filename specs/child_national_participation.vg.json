@@ -1,0 +1,108 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "description": "Weekly sports participation rate among children by Australian state",
+    "width": "container",
+    "height": 450,
+    "params": [
+        {
+            "name": "yearSelect",
+            "value": 2024,
+            "bind": {
+                "input": "select",
+                "options": [
+                    2024,
+                    2025
+                ],
+                "labels": [
+                    "2024",
+                    "2025"
+                ],
+                "name": "Year: "
+            }
+        }
+    ],
+    "projection": {
+        "type": "conicEqualArea",
+        "parallels": [
+            -18,
+            -36
+        ],
+        "rotate": [
+            -132,
+            0
+        ]
+    },
+    "data": {
+        "url": "data/australian_states.json",
+        "format": {
+            "type": "topojson",
+            "feature": "STE_2021_AUST_GDA2020"
+        }
+    },
+    "transform": [
+        {
+            "lookup": "properties.STE_NAME21",
+            "from": {
+                "data": {
+                    "url": "data/kids_participation.csv"
+                },
+                "key": "state_name",
+                "fields": [
+                    "weekly_participation_2024",
+                    "weekly_participation_2025"
+                ]
+            }
+        },
+        {
+            "calculate": "yearSelect === 2024 ? datum.weekly_participation_2024 : datum.weekly_participation_2025",
+            "as": "weekly_participation"
+        },
+        {
+            "calculate": "toNumber(replace(datum.weekly_participation, '%', ''))",
+            "as": "participation_rate"
+        }
+    ],
+    "mark": {
+        "type": "geoshape",
+        "stroke": "white",
+        "strokeWidth": 1.2
+    },
+    "encoding": {
+        "color": {
+            "field": "participation_rate",
+            "type": "quantitative",
+            "scale": {
+                "scheme": "tealblues",
+                "domain": [
+                    35,
+                    45
+                ]
+            },
+            "legend": {
+                "title": "Weekly participation (%)",
+                "orient": "top-right",
+                "gradientLength": 160,
+                "titleFontSize": 11,
+                "labelFontSize": 10
+            }
+        },
+        "tooltip": [
+            {
+                "field": "properties.STE_NAME21",
+                "type": "nominal",
+                "title": "State / Territory"
+            },
+            {
+                "field": "participation_rate",
+                "type": "quantitative",
+                "format": ".1f",
+                "title": "Weekly participation (%)"
+            }
+        ]
+    },
+    "config": {
+        "view": {
+            "stroke": null
+        }
+    }
+}

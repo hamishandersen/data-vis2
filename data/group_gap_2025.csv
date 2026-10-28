@@ -1,0 +1,23 @@
+category,label,participation_pct,gap_pp,non_participants
+Where you live,Major cities,86.5,0.6,2208000
+Where you live,Inner regional,84.5,-1.4,628000
+Where you live,Outer regional,84.0,-1.9,321000
+Where you live,Remote or very remote,86.1,0.2,35000
+Work status,Employed full-time,90.8,4.9,928000
+Work status,Full-time student,91.5,5.6,103000
+Work status,Home duties,78.9,-7.0,159000
+Work status,Unemployed,76.1,-9.8,244000
+Work status,Retired or on a pension,76.1,-9.8,1171000
+Education,University degree or higher,92.3,6.4,712000
+Education,Diploma,87.4,1.5,356000
+Education,Certificate or trade,82.9,-3.0,735000
+Education,Completed secondary school,82.4,-3.5,676000
+Education,Did not complete school,65.5,-20.4,482000
+Disability,Has a disability or condition,70.2,-15.7,1035000
+Disability,No disability or condition,89.4,3.5,1865000
+Household income,Income under $40k,71.1,-14.8,789000
+Household income,Income $40k-$70k,80.6,-5.3,620000
+Household income,Income $70k-$100k,86.8,0.9,397000
+Household income,Income $100k-$150k,90.1,4.2,409000
+Household income,Income $150k-$200k,92.9,7.0,169000
+Household income,Income $200k or more,94.5,8.6,164000

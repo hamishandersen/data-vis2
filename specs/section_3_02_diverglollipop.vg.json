@@ -1,0 +1,141 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "description": "How far each group's participation sits above or below the national average, 2025",
+    "data": {
+        "url": "data/group_gap_2025.csv"
+    },
+    "width": "container",
+    "height": {
+        "step": 22
+    },
+    "encoding": {
+                "y": {
+                    "field": "label",
+                    "type": "nominal",
+                    "sort": {
+                        "field": "category",
+                        "order": "ascending"
+                    },
+                    "title": null,
+                    "axis": {
+                        "domain": false,
+                        "ticks": false,
+                        "labelPadding": 6,
+                        "labelLimit": 220
+                    }
+                },
+        "x": {
+            "field": "gap_pp",
+            "type": "quantitative",
+            "title": "Percentage points above or below the national average (86%)",
+            "scale": {
+                "domain": [
+                    -24,
+                    12
+                ]
+            },
+            "axis": {
+                "gridColor": {
+                    "condition": {
+                        "test": "datum.value === 0",
+                        "value": "black"
+                    },
+                    "value": "#e6e3d8"
+                }
+            }
+        },
+        "color": {
+            "field": "category",
+            "type": "nominal",
+            "scale": {
+                "domain": [
+                    "Disability",
+                    "Household income",
+                    "Education",
+                    "Where you live",
+                    "Work status"
+                ],
+                "range": [
+                    "#8e44ad",
+                    "#2b5aa8",
+                    "#e08a2c",
+                    "#9a9a94",
+                    "#2a9d8f"
+                ]
+            },
+            "legend": {
+                "title": null,
+                "orient": "top"
+            }
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "rule",
+                "strokeWidth": 2
+            },
+            "encoding": {
+                "x2": {
+                    "datum": 0
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "circle",
+                "size": 110,
+                "opacity": 1
+            },
+            "encoding": {
+                "tooltip": [
+                    {
+                        "field": "label",
+                        "type": "nominal",
+                        "title": "Group"
+                    },
+                    {
+                        "field": "participation_pct",
+                        "type": "quantitative",
+                        "format": ".1f",
+                        "title": "Took part (%)"
+                    },
+                    {
+                        "field": "gap_pp",
+                        "type": "quantitative",
+                        "format": "+.1f",
+                        "title": "Gap (points)"
+                    },
+                    {
+                        "field": "non_participants",
+                        "type": "quantitative",
+                        "format": ",",
+                        "title": "Adults not taking part"
+                    }
+                ]
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "fontSize": 11,
+                "align": {
+                    "expr": "datum.gap_pp < 0 ? 'right' : 'left'"
+                },
+                "dx": {
+                    "expr": "datum.gap_pp < 0 ? -9 : 9"
+                }
+            },
+            "encoding": {
+                "text": {
+                    "field": "gap_pp",
+                    "type": "quantitative",
+                    "format": "+.1f"
+                },
+                "color": {
+                    "value": "#333"
+                }
+            }
+        }
+    ]
+}

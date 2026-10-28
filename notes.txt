@@ -1,0 +1,20 @@
+Section 2: A decade apart (the two-source section)
+4. Tile-grid map, two panels: each state’s rate relative to the national average, 2013-14 beside 2025 [ABS T1 + T34]. Map idiom 3. Tile grids need no boundary file, so this one is easy to build. From the headline figures, the ACT leads in both eras and Queensland trails in both, which makes a good story.
+5. Age-profile lines: each age band as a share of its own national average, for both surveys [ABS T1 + T1]. Older Australians look closer to average now than in 2013-14, but check this against your own calculation.
+6. Top activities, then vs now: a slope chart of activity ranks [ABS T2 + T17]. You’ll need a hand-made name-mapping table, because ABS says “Fitness / Gym” and “Walking for exercise” while AusPlay says “Fitness/Gym” and “Walking (Recreational)”. Keep to rankings, because the walking rates differ hugely (24.7% vs about 50%).
+
+Section 3: Who plays, and who doesn’t
+7. Dot plot of participation by demographic group [T1]: remoteness, employment, education, household type, language and disability. It shows the gaps clearly.
+8. Barriers, adults vs children [T13, T14]: paired bars. Adults cite health and age, while children’s barriers are mostly “wrong age” and cost. Child data covers organised activity outside school hours only, so don’t compare child and adult participation rates directly.
+
+Section 4: What we actually do
+9. Sport vs non-sport by age: a stacked bar [T15]. Sport-only falls from about 23% at 15-17 to about 6% at 65+, while non-sport rises. It’s probably the strongest chart on the page.
+10. Organised share by activity: organised rate divided by total rate [T19 ÷ T17], as a lollipop or sorted bar. Netball and football are organised; walking and gym mostly aren’t.
+
+Section 5: How, where and what it costs
+11. Where people play [T7]: public space, home, gyms and clubs.
+12. Payment to participate [T22]: median and mean spend by age.
+
+Section 6: Behind the scenes (optional, cut if short on time)
+13. Volunteer roles [T25, T26]: who keeps sport running.
+14. Injuries by body part [T29].

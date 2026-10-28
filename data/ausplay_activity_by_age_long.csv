@@ -1,0 +1,995 @@
+activity,ageGroup,participationRate
+Adventure racing,15-17,0.0
+Adventure racing,18-24,0.2
+Adventure racing,25-34,0.1
+Adventure racing,35-44,0.1
+Adventure racing,45-54,0.1
+Adventure racing,55-64,0.0
+Adventure racing,65+,0.0
+Air sports,15-17,0.4
+Air sports,18-24,0.5
+Air sports,25-34,0.4
+Air sports,35-44,0.2
+Air sports,45-54,0.1
+Air sports,55-64,0.1
+Air sports,65+,0.1
+Archery,15-17,0.3
+Archery,18-24,0.2
+Archery,25-34,0.3
+Archery,35-44,0.3
+Archery,45-54,0.2
+Archery,55-64,0.1
+Archery,65+,0.0
+"Athletics, track and field",15-17,5.8
+"Athletics, track and field",18-24,2.9
+"Athletics, track and field",25-34,2.1
+"Athletics, track and field",35-44,1.1
+"Athletics, track and field",45-54,0.6
+"Athletics, track and field",55-64,0.3
+"Athletics, track and field",65+,0.2
+Australian football,15-17,6.0
+Australian football,18-24,6.0
+Australian football,25-34,4.8
+Australian football,35-44,2.1
+Australian football,45-54,1.4
+Australian football,55-64,0.4
+Australian football,65+,0.1
+Badminton,15-17,9.1
+Badminton,18-24,4.2
+Badminton,25-34,3.0
+Badminton,35-44,1.7
+Badminton,45-54,0.8
+Badminton,55-64,0.3
+Badminton,65+,0.1
+Baseball,15-17,0.7
+Baseball,18-24,0.5
+Baseball,25-34,0.5
+Baseball,35-44,0.4
+Baseball,45-54,0.4
+Baseball,55-64,0.1
+Baseball,65+,0.0
+Basketball,15-17,17.3
+Basketball,18-24,11.7
+Basketball,25-34,6.2
+Basketball,35-44,4.8
+Basketball,45-54,2.6
+Basketball,55-64,0.8
+Basketball,65+,0.2
+Baton twirling,15-17,0.0
+Baton twirling,18-24,0.0
+Baton twirling,25-34,0.0
+Baton twirling,35-44,0.0
+Baton twirling,45-54,0.0
+Baton twirling,55-64,0.0
+Baton twirling,65+,0.0
+Biathlon,15-17,0.0
+Biathlon,18-24,0.0
+Biathlon,25-34,0.0
+Biathlon,35-44,0.0
+Biathlon,45-54,0.0
+Biathlon,55-64,0.0
+Biathlon,65+,0.0
+Billiards/Snooker/Pool,15-17,0.4
+Billiards/Snooker/Pool,18-24,0.4
+Billiards/Snooker/Pool,25-34,0.5
+Billiards/Snooker/Pool,35-44,0.3
+Billiards/Snooker/Pool,45-54,0.3
+Billiards/Snooker/Pool,55-64,0.3
+Billiards/Snooker/Pool,65+,0.2
+BMX,15-17,0.0
+BMX,18-24,0.0
+BMX,25-34,0.0
+BMX,35-44,0.1
+BMX,45-54,0.1
+BMX,55-64,0.0
+BMX,65+,0.0
+Bobsledding,15-17,0.0
+Bobsledding,18-24,0.0
+Bobsledding,25-34,0.0
+Bobsledding,35-44,0.0
+Bobsledding,45-54,0.0
+Bobsledding,55-64,0.0
+Bobsledding,65+,0.0
+Bocce/Boules,15-17,0.0
+Bocce/Boules,18-24,0.0
+Bocce/Boules,25-34,0.0
+Bocce/Boules,35-44,0.0
+Bocce/Boules,45-54,0.0
+Bocce/Boules,55-64,0.0
+Bocce/Boules,65+,0.0
+Boccia,15-17,0.0
+Boccia,18-24,0.0
+Boccia,25-34,0.0
+Boccia,35-44,0.0
+Boccia,45-54,0.0
+Boccia,55-64,0.0
+Boccia,65+,0.0
+Body building,15-17,0.0
+Body building,18-24,0.1
+Body building,25-34,0.1
+Body building,35-44,0.0
+Body building,45-54,0.0
+Body building,55-64,0.0
+Body building,65+,0.0
+Boomerang throwing,15-17,0.2
+Boomerang throwing,18-24,0.0
+Boomerang throwing,25-34,0.0
+Boomerang throwing,35-44,0.0
+Boomerang throwing,45-54,0.0
+Boomerang throwing,55-64,0.0
+Boomerang throwing,65+,0.0
+Bowls,15-17,0.1
+Bowls,18-24,0.1
+Bowls,25-34,0.3
+Bowls,35-44,0.2
+Bowls,45-54,0.4
+Bowls,55-64,1.0
+Bowls,65+,2.5
+Boxing,15-17,1.0
+Boxing,18-24,1.8
+Boxing,25-34,1.6
+Boxing,35-44,1.0
+Boxing,45-54,0.7
+Boxing,55-64,0.3
+Boxing,65+,0.1
+Broomball,15-17,0.0
+Broomball,18-24,0.0
+Broomball,25-34,0.0
+Broomball,35-44,0.0
+Broomball,45-54,0.0
+Broomball,55-64,0.0
+Broomball,65+,0.0
+Bush walking,15-17,14.6
+Bush walking,18-24,17.3
+Bush walking,25-34,20.3
+Bush walking,35-44,21.4
+Bush walking,45-54,19.7
+Bush walking,55-64,19.5
+Bush walking,65+,9.6
+Calisthenics,15-17,1.2
+Calisthenics,18-24,0.7
+Calisthenics,25-34,0.5
+Calisthenics,35-44,0.3
+Calisthenics,45-54,0.3
+Calisthenics,55-64,0.2
+Calisthenics,65+,0.1
+Campdrafting,15-17,0.0
+Campdrafting,18-24,0.0
+Campdrafting,25-34,0.0
+Campdrafting,35-44,0.0
+Campdrafting,45-54,0.0
+Campdrafting,55-64,0.0
+Campdrafting,65+,0.0
+Canoeing/Kayaking,15-17,0.7
+Canoeing/Kayaking,18-24,0.6
+Canoeing/Kayaking,25-34,1.0
+Canoeing/Kayaking,35-44,1.1
+Canoeing/Kayaking,45-54,1.3
+Canoeing/Kayaking,55-64,1.5
+Canoeing/Kayaking,65+,0.7
+Circus,15-17,0.2
+Circus,18-24,0.0
+Circus,25-34,0.1
+Circus,35-44,0.0
+Circus,45-54,0.0
+Circus,55-64,0.0
+Circus,65+,0.0
+Cricket,15-17,8.4
+Cricket,18-24,4.8
+Cricket,25-34,3.5
+Cricket,35-44,2.7
+Cricket,45-54,2.0
+Cricket,55-64,1.0
+Cricket,65+,0.3
+Croquet,15-17,0.0
+Croquet,18-24,0.0
+Croquet,25-34,0.0
+Croquet,35-44,0.0
+Croquet,45-54,0.0
+Croquet,55-64,0.0
+Croquet,65+,0.4
+Crossfit/Functional fitness,15-17,0.2
+Crossfit/Functional fitness,18-24,0.5
+Crossfit/Functional fitness,25-34,1.3
+Crossfit/Functional fitness,35-44,1.1
+Crossfit/Functional fitness,45-54,0.6
+Crossfit/Functional fitness,55-64,0.4
+Crossfit/Functional fitness,65+,0.1
+Curling,15-17,0.0
+Curling,18-24,0.0
+Curling,25-34,0.0
+Curling,35-44,0.1
+Curling,45-54,0.0
+Curling,55-64,0.0
+Curling,65+,0.0
+Cycling,15-17,6.7
+Cycling,18-24,5.6
+Cycling,25-34,7.1
+Cycling,35-44,9.3
+Cycling,45-54,11.6
+Cycling,55-64,12.0
+Cycling,65+,5.6
+DanceSport,15-17,3.7
+DanceSport,18-24,2.6
+DanceSport,25-34,1.3
+DanceSport,35-44,1.1
+DanceSport,45-54,0.7
+DanceSport,55-64,0.7
+DanceSport,65+,0.4
+Dancing (recreational),15-17,2.6
+Dancing (recreational),18-24,2.4
+Dancing (recreational),25-34,1.9
+Dancing (recreational),35-44,1.7
+Dancing (recreational),45-54,1.2
+Dancing (recreational),55-64,1.1
+Dancing (recreational),65+,1.3
+Darts,15-17,0.0
+Darts,18-24,0.3
+Darts,25-34,0.1
+Darts,35-44,0.2
+Darts,45-54,0.2
+Darts,55-64,0.2
+Darts,65+,0.1
+Diving,15-17,0.0
+Diving,18-24,0.2
+Diving,25-34,0.0
+Diving,35-44,0.0
+Diving,45-54,0.0
+Diving,55-64,0.1
+Diving,65+,0.0
+Dodgeball,15-17,0.5
+Dodgeball,18-24,0.1
+Dodgeball,25-34,0.2
+Dodgeball,35-44,0.1
+Dodgeball,45-54,0.0
+Dodgeball,55-64,0.0
+Dodgeball,65+,0.0
+Dragon boat racing,15-17,0.0
+Dragon boat racing,18-24,0.0
+Dragon boat racing,25-34,0.0
+Dragon boat racing,35-44,0.1
+Dragon boat racing,45-54,0.1
+Dragon boat racing,55-64,0.1
+Dragon boat racing,65+,0.1
+Eight ball,15-17,0.0
+Eight ball,18-24,0.1
+Eight ball,25-34,0.0
+Eight ball,35-44,0.0
+Eight ball,45-54,0.0
+Eight ball,55-64,0.0
+Eight ball,65+,0.0
+Equestrian,15-17,0.5
+Equestrian,18-24,0.7
+Equestrian,25-34,0.6
+Equestrian,35-44,0.4
+Equestrian,45-54,0.4
+Equestrian,55-64,0.6
+Equestrian,65+,0.1
+eSports,15-17,0.1
+eSports,18-24,0.7
+eSports,25-34,0.4
+eSports,35-44,0.2
+eSports,45-54,0.1
+eSports,55-64,0.0
+eSports,65+,0.0
+Fencing,15-17,0.1
+Fencing,18-24,0.2
+Fencing,25-34,0.1
+Fencing,35-44,0.0
+Fencing,45-54,0.1
+Fencing,55-64,0.0
+Fencing,65+,0.0
+Fishing (recreational),15-17,1.1
+Fishing (recreational),18-24,0.7
+Fishing (recreational),25-34,0.9
+Fishing (recreational),35-44,1.0
+Fishing (recreational),45-54,1.4
+Fishing (recreational),55-64,1.6
+Fishing (recreational),65+,0.9
+Fitness/Gym,15-17,37.3
+Fitness/Gym,18-24,43.4
+Fitness/Gym,25-34,42.1
+Fitness/Gym,35-44,36.4
+Fitness/Gym,45-54,32.9
+Fitness/Gym,55-64,29.5
+Fitness/Gym,65+,23.7
+Floorball,15-17,0.2
+Floorball,18-24,0.1
+Floorball,25-34,0.0
+Floorball,35-44,0.0
+Floorball,45-54,0.0
+Floorball,55-64,0.0
+Floorball,65+,0.0
+Flying disc,15-17,0.7
+Flying disc,18-24,0.7
+Flying disc,25-34,0.4
+Flying disc,35-44,0.2
+Flying disc,45-54,0.2
+Flying disc,55-64,0.1
+Flying disc,65+,0.0
+Football/soccer,15-17,17.0
+Football/soccer,18-24,12.3
+Football/soccer,25-34,9.4
+Football/soccer,35-44,6.9
+Football/soccer,45-54,3.3
+Football/soccer,55-64,1.0
+Football/soccer,65+,0.1
+Gaelic football,15-17,0.0
+Gaelic football,18-24,0.1
+Gaelic football,25-34,0.2
+Gaelic football,35-44,0.0
+Gaelic football,45-54,0.1
+Gaelic football,55-64,0.0
+Gaelic football,65+,0.0
+Geocaching,15-17,0.0
+Geocaching,18-24,0.0
+Geocaching,25-34,0.0
+Geocaching,35-44,0.1
+Geocaching,45-54,0.0
+Geocaching,55-64,0.1
+Geocaching,65+,0.0
+Goalball,15-17,0.2
+Goalball,18-24,0.0
+Goalball,25-34,0.0
+Goalball,35-44,0.0
+Goalball,45-54,0.0
+Goalball,55-64,0.0
+Goalball,65+,0.0
+Golf,15-17,2.4
+Golf,18-24,2.8
+Golf,25-34,3.5
+Golf,35-44,3.4
+Golf,45-54,4.8
+Golf,55-64,6.9
+Golf,65+,6.1
+Gridiron,15-17,0.3
+Gridiron,18-24,0.1
+Gridiron,25-34,0.0
+Gridiron,35-44,0.0
+Gridiron,45-54,0.0
+Gridiron,55-64,0.0
+Gridiron,65+,0.0
+Guides,15-17,0.0
+Guides,18-24,0.0
+Guides,25-34,0.0
+Guides,35-44,0.0
+Guides,45-54,0.0
+Guides,55-64,0.0
+Guides,65+,0.0
+Gymnastics,15-17,2.5
+Gymnastics,18-24,1.1
+Gymnastics,25-34,0.7
+Gymnastics,35-44,0.7
+Gymnastics,45-54,0.2
+Gymnastics,55-64,0.2
+Gymnastics,65+,0.1
+Handball,15-17,1.1
+Handball,18-24,0.2
+Handball,25-34,0.2
+Handball,35-44,0.0
+Handball,45-54,0.0
+Handball,55-64,0.0
+Handball,65+,0.0
+Harness racing,15-17,0.0
+Harness racing,18-24,0.0
+Harness racing,25-34,0.0
+Harness racing,35-44,0.0
+Harness racing,45-54,0.0
+Harness racing,55-64,0.0
+Harness racing,65+,0.0
+Hockey,15-17,1.6
+Hockey,18-24,1.0
+Hockey,25-34,0.6
+Hockey,35-44,0.6
+Hockey,45-54,0.4
+Hockey,55-64,0.3
+Hockey,65+,0.1
+Horse racing,15-17,0.0
+Horse racing,18-24,0.0
+Horse racing,25-34,0.1
+Horse racing,35-44,0.0
+Horse racing,45-54,0.0
+Horse racing,55-64,0.0
+Horse racing,65+,0.0
+Ice hockey,15-17,0.3
+Ice hockey,18-24,0.1
+Ice hockey,25-34,0.0
+Ice hockey,35-44,0.1
+Ice hockey,45-54,0.0
+Ice hockey,55-64,0.0
+Ice hockey,65+,0.0
+Ice racing/speed skating,15-17,0.0
+Ice racing/speed skating,18-24,0.0
+Ice racing/speed skating,25-34,0.0
+Ice racing/speed skating,35-44,0.0
+Ice racing/speed skating,45-54,0.0
+Ice racing/speed skating,55-64,0.0
+Ice racing/speed skating,65+,0.0
+Ice skating,15-17,1.7
+Ice skating,18-24,0.4
+Ice skating,25-34,0.2
+Ice skating,35-44,0.2
+Ice skating,45-54,0.1
+Ice skating,55-64,0.1
+Ice skating,65+,0.0
+Jet skiing,15-17,0.0
+Jet skiing,18-24,0.1
+Jet skiing,25-34,0.1
+Jet skiing,35-44,0.1
+Jet skiing,45-54,0.1
+Jet skiing,55-64,0.1
+Jet skiing,65+,0.0
+Judo,15-17,0.5
+Judo,18-24,0.1
+Judo,25-34,0.1
+Judo,35-44,0.0
+Judo,45-54,0.0
+Judo,55-64,0.0
+Judo,65+,0.0
+Jujitsu,15-17,0.4
+Jujitsu,18-24,0.2
+Jujitsu,25-34,0.3
+Jujitsu,35-44,0.3
+Jujitsu,45-54,0.1
+Jujitsu,55-64,0.0
+Jujitsu,65+,0.0
+Karate,15-17,0.4
+Karate,18-24,0.4
+Karate,25-34,0.1
+Karate,35-44,0.3
+Karate,45-54,0.1
+Karate,55-64,0.2
+Karate,65+,0.1
+Kendo,15-17,0.1
+Kendo,18-24,0.1
+Kendo,25-34,0.0
+Kendo,35-44,0.0
+Kendo,45-54,0.0
+Kendo,55-64,0.0
+Kendo,65+,0.0
+Kitesurfing/kiteboarding,15-17,0.0
+Kitesurfing/kiteboarding,18-24,0.0
+Kitesurfing/kiteboarding,25-34,0.0
+Kitesurfing/kiteboarding,35-44,0.0
+Kitesurfing/kiteboarding,45-54,0.0
+Kitesurfing/kiteboarding,55-64,0.0
+Kitesurfing/kiteboarding,65+,0.0
+Korfball,15-17,0.0
+Korfball,18-24,0.0
+Korfball,25-34,0.0
+Korfball,35-44,0.0
+Korfball,45-54,0.0
+Korfball,55-64,0.0
+Korfball,65+,0.0
+Kung fu wushu,15-17,0.0
+Kung fu wushu,18-24,0.0
+Kung fu wushu,25-34,0.0
+Kung fu wushu,35-44,0.0
+Kung fu wushu,45-54,0.0
+Kung fu wushu,55-64,0.0
+Kung fu wushu,65+,0.0
+Lacrosse,15-17,0.2
+Lacrosse,18-24,0.1
+Lacrosse,25-34,0.0
+Lacrosse,35-44,0.0
+Lacrosse,45-54,0.0
+Lacrosse,55-64,0.0
+Lacrosse,65+,0.0
+Lifesaving royal,15-17,0.0
+Lifesaving royal,18-24,0.0
+Lifesaving royal,25-34,0.0
+Lifesaving royal,35-44,0.0
+Lifesaving royal,45-54,0.0
+Lifesaving royal,55-64,0.0
+Lifesaving royal,65+,0.0
+Lifesaving surf,15-17,0.5
+Lifesaving surf,18-24,0.1
+Lifesaving surf,25-34,0.1
+Lifesaving surf,35-44,0.2
+Lifesaving surf,45-54,0.1
+Lifesaving surf,55-64,0.2
+Lifesaving surf,65+,0.0
+Luging,15-17,0.0
+Luging,18-24,0.0
+Luging,25-34,0.0
+Luging,35-44,0.0
+Luging,45-54,0.0
+Luging,55-64,0.0
+Luging,65+,0.0
+Marching,15-17,0.0
+Marching,18-24,0.0
+Marching,25-34,0.0
+Marching,35-44,0.0
+Marching,45-54,0.0
+Marching,55-64,0.0
+Marching,65+,0.0
+Martial arts,15-17,0.6
+Martial arts,18-24,0.7
+Martial arts,25-34,0.5
+Martial arts,35-44,0.3
+Martial arts,45-54,0.5
+Martial arts,55-64,0.5
+Martial arts,65+,1.1
+Mixed martial arts,15-17,0.1
+Mixed martial arts,18-24,0.3
+Mixed martial arts,25-34,0.1
+Mixed martial arts,35-44,0.1
+Mixed martial arts,45-54,0.2
+Mixed martial arts,55-64,0.0
+Mixed martial arts,65+,0.0
+Modern pentathlon,15-17,0.0
+Modern pentathlon,18-24,0.0
+Modern pentathlon,25-34,0.0
+Modern pentathlon,35-44,0.0
+Modern pentathlon,45-54,0.0
+Modern pentathlon,55-64,0.0
+Modern pentathlon,65+,0.0
+Motor cycling,15-17,1.5
+Motor cycling,18-24,1.0
+Motor cycling,25-34,1.4
+Motor cycling,35-44,0.9
+Motor cycling,45-54,0.8
+Motor cycling,55-64,1.1
+Motor cycling,65+,0.4
+Motor sport,15-17,0.7
+Motor sport,18-24,0.4
+Motor sport,25-34,0.4
+Motor sport,35-44,0.2
+Motor sport,45-54,0.2
+Motor sport,55-64,0.2
+Motor sport,65+,0.0
+Mountain biking,15-17,1.7
+Mountain biking,18-24,0.5
+Mountain biking,25-34,0.6
+Mountain biking,35-44,1.0
+Mountain biking,45-54,1.2
+Mountain biking,55-64,0.7
+Mountain biking,65+,0.2
+Mountain climbing,15-17,0.1
+Mountain climbing,18-24,0.1
+Mountain climbing,25-34,0.1
+Mountain climbing,35-44,0.2
+Mountain climbing,45-54,0.1
+Mountain climbing,55-64,0.1
+Mountain climbing,65+,0.0
+Muay Thai,15-17,0.3
+Muay Thai,18-24,0.6
+Muay Thai,25-34,0.3
+Muay Thai,35-44,0.1
+Muay Thai,45-54,0.0
+Muay Thai,55-64,0.0
+Muay Thai,65+,0.0
+Netball,15-17,8.1
+Netball,18-24,5.5
+Netball,25-34,3.1
+Netball,35-44,2.1
+Netball,45-54,1.2
+Netball,55-64,0.3
+Netball,65+,0.1
+Obstacle,15-17,0.4
+Obstacle,18-24,0.0
+Obstacle,25-34,0.1
+Obstacle,35-44,0.1
+Obstacle,45-54,0.1
+Obstacle,55-64,0.0
+Obstacle,65+,0.0
+Orienteering,15-17,0.4
+Orienteering,18-24,0.1
+Orienteering,25-34,0.0
+Orienteering,35-44,0.1
+Orienteering,45-54,0.1
+Orienteering,55-64,0.0
+Orienteering,65+,0.0
+Outrigger canoe,15-17,0.0
+Outrigger canoe,18-24,0.0
+Outrigger canoe,25-34,0.0
+Outrigger canoe,35-44,0.0
+Outrigger canoe,45-54,0.1
+Outrigger canoe,55-64,0.0
+Outrigger canoe,65+,0.0
+Oztag,15-17,1.0
+Oztag,18-24,0.8
+Oztag,25-34,0.4
+Oztag,35-44,0.1
+Oztag,45-54,0.0
+Oztag,55-64,0.0
+Oztag,65+,0.0
+Paddle sports,15-17,0.0
+Paddle sports,18-24,0.1
+Paddle sports,25-34,0.2
+Paddle sports,35-44,0.2
+Paddle sports,45-54,0.2
+Paddle sports,55-64,0.3
+Paddle sports,65+,0.2
+Paintball,15-17,0.0
+Paintball,18-24,0.0
+Paintball,25-34,0.0
+Paintball,35-44,0.0
+Paintball,45-54,0.0
+Paintball,55-64,0.0
+Paintball,65+,0.0
+Parkour,15-17,0.4
+Parkour,18-24,0.0
+Parkour,25-34,0.0
+Parkour,35-44,0.0
+Parkour,45-54,0.0
+Parkour,55-64,0.0
+Parkour,65+,0.0
+Petanque,15-17,0.0
+Petanque,18-24,0.0
+Petanque,25-34,0.0
+Petanque,35-44,0.0
+Petanque,45-54,0.0
+Petanque,55-64,0.0
+Petanque,65+,0.0
+Physical Culture,15-17,0.0
+Physical Culture,18-24,0.0
+Physical Culture,25-34,0.0
+Physical Culture,35-44,0.1
+Physical Culture,45-54,0.0
+Physical Culture,55-64,0.1
+Physical Culture,65+,0.2
+Pickleball/padel,15-17,0.9
+Pickleball/padel,18-24,1.4
+Pickleball/padel,25-34,1.5
+Pickleball/padel,35-44,1.4
+Pickleball/padel,45-54,1.5
+Pickleball/padel,55-64,1.7
+Pickleball/padel,65+,0.7
+Pilates,15-17,3.7
+Pilates,18-24,8.8
+Pilates,25-34,11.0
+Pilates,35-44,8.7
+Pilates,45-54,7.1
+Pilates,55-64,6.3
+Pilates,65+,3.2
+Polo,15-17,0.0
+Polo,18-24,0.0
+Polo,25-34,0.0
+Polo,35-44,0.0
+Polo,45-54,0.0
+Polo,55-64,0.0
+Polo,65+,0.0
+Polocrosse,15-17,0.0
+Polocrosse,18-24,0.0
+Polocrosse,25-34,0.0
+Polocrosse,35-44,0.0
+Polocrosse,45-54,0.0
+Polocrosse,55-64,0.0
+Polocrosse,65+,0.0
+Pony Club,15-17,0.2
+Pony Club,18-24,0.1
+Pony Club,25-34,0.1
+Pony Club,35-44,0.1
+Pony Club,45-54,0.0
+Pony Club,55-64,0.0
+Pony Club,65+,0.0
+Powerlifting,15-17,0.0
+Powerlifting,18-24,0.1
+Powerlifting,25-34,0.1
+Powerlifting,35-44,0.1
+Powerlifting,45-54,0.0
+Powerlifting,55-64,0.0
+Powerlifting,65+,0.0
+Ready Steady Go Kids,15-17,0.0
+Ready Steady Go Kids,18-24,0.0
+Ready Steady Go Kids,25-34,0.0
+Ready Steady Go Kids,35-44,0.0
+Ready Steady Go Kids,45-54,0.0
+Ready Steady Go Kids,55-64,0.0
+Ready Steady Go Kids,65+,0.0
+Rock   climbing/Abseiling/Caving,15-17,1.8
+Rock   climbing/Abseiling/Caving,18-24,1.0
+Rock   climbing/Abseiling/Caving,25-34,0.6
+Rock   climbing/Abseiling/Caving,35-44,0.5
+Rock   climbing/Abseiling/Caving,45-54,0.2
+Rock   climbing/Abseiling/Caving,55-64,0.2
+Rock   climbing/Abseiling/Caving,65+,0.0
+Rodeo,15-17,0.0
+Rodeo,18-24,0.0
+Rodeo,25-34,0.0
+Rodeo,35-44,0.0
+Rodeo,45-54,0.0
+Rodeo,55-64,0.0
+Rodeo,65+,0.0
+Rogaining,15-17,0.0
+Rogaining,18-24,0.0
+Rogaining,25-34,0.0
+Rogaining,35-44,0.0
+Rogaining,45-54,0.0
+Rogaining,55-64,0.0
+Rogaining,65+,0.0
+Roller Derby,15-17,0.0
+Roller Derby,18-24,0.0
+Roller Derby,25-34,0.0
+Roller Derby,35-44,0.0
+Roller Derby,45-54,0.0
+Roller Derby,55-64,0.0
+Roller Derby,65+,0.0
+Rope skipping,15-17,0.4
+Rope skipping,18-24,0.4
+Rope skipping,25-34,0.4
+Rope skipping,35-44,0.3
+Rope skipping,45-54,0.2
+Rope skipping,55-64,0.2
+Rope skipping,65+,0.0
+Rowing,15-17,1.0
+Rowing,18-24,0.4
+Rowing,25-34,0.5
+Rowing,35-44,0.5
+Rowing,45-54,0.7
+Rowing,55-64,0.8
+Rowing,65+,0.5
+Rugby league,15-17,3.2
+Rugby league,18-24,1.7
+Rugby league,25-34,1.4
+Rugby league,35-44,0.7
+Rugby league,45-54,0.4
+Rugby league,55-64,0.1
+Rugby league,65+,0.0
+Rugby union,15-17,1.4
+Rugby union,18-24,0.9
+Rugby union,25-34,0.6
+Rugby union,35-44,0.3
+Rugby union,45-54,0.2
+Rugby union,55-64,0.1
+Rugby union,65+,0.0
+Running/jogging,15-17,26.6
+Running/jogging,18-24,26.7
+Running/jogging,25-34,27.7
+Running/jogging,35-44,20.9
+Running/jogging,45-54,15.8
+Running/jogging,55-64,8.5
+Running/jogging,65+,1.8
+Sailing,15-17,0.3
+Sailing,18-24,0.1
+Sailing,25-34,0.2
+Sailing,35-44,0.2
+Sailing,45-54,0.4
+Sailing,55-64,0.7
+Sailing,65+,0.4
+Scootering,15-17,0.0
+Scootering,18-24,0.0
+Scootering,25-34,0.1
+Scootering,35-44,0.3
+Scootering,45-54,0.1
+Scootering,55-64,0.0
+Scootering,65+,0.0
+Scouts,15-17,0.3
+Scouts,18-24,0.1
+Scouts,25-34,0.0
+Scouts,35-44,0.0
+Scouts,45-54,0.0
+Scouts,55-64,0.0
+Scouts,65+,0.0
+Sepak takraw,15-17,0.0
+Sepak takraw,18-24,0.0
+Sepak takraw,25-34,0.0
+Sepak takraw,35-44,0.0
+Sepak takraw,45-54,0.0
+Sepak takraw,55-64,0.0
+Sepak takraw,65+,0.0
+Shooting/field,15-17,0.3
+Shooting/field,18-24,0.1
+Shooting/field,25-34,0.3
+Shooting/field,35-44,0.2
+Shooting/field,45-54,0.2
+Shooting/field,55-64,0.2
+Shooting/field,65+,0.1
+Shooting/range,15-17,0.0
+Shooting/range,18-24,0.1
+Shooting/range,25-34,0.2
+Shooting/range,35-44,0.2
+Shooting/range,45-54,0.1
+Shooting/range,55-64,0.1
+Shooting/range,65+,0.1
+Skate,15-17,1.2
+Skate,18-24,0.7
+Skate,25-34,0.6
+Skate,35-44,0.5
+Skate,45-54,0.4
+Skate,55-64,0.1
+Skate,65+,0.0
+Skeleton,15-17,0.0
+Skeleton,18-24,0.0
+Skeleton,25-34,0.0
+Skeleton,35-44,0.0
+Skeleton,45-54,0.0
+Skeleton,55-64,0.0
+Skeleton,65+,0.0
+Ski & snowboard,15-17,0.3
+Ski & snowboard,18-24,0.7
+Ski & snowboard,25-34,0.9
+Ski & snowboard,35-44,0.8
+Ski & snowboard,45-54,1.0
+Ski & snowboard,55-64,1.4
+Ski & snowboard,65+,0.4
+Skirmish,15-17,0.0
+Skirmish,18-24,0.0
+Skirmish,25-34,0.0
+Skirmish,35-44,0.0
+Skirmish,45-54,0.0
+Skirmish,55-64,0.0
+Skirmish,65+,0.0
+Softball,15-17,0.3
+Softball,18-24,0.2
+Softball,25-34,0.2
+Softball,35-44,0.2
+Softball,45-54,0.1
+Softball,55-64,0.2
+Softball,65+,0.0
+Sport climbing,15-17,1.4
+Sport climbing,18-24,1.3
+Sport climbing,25-34,1.3
+Sport climbing,35-44,0.5
+Sport climbing,45-54,0.0
+Sport climbing,55-64,0.1
+Sport climbing,65+,0.0
+Squash,15-17,0.4
+Squash,18-24,0.3
+Squash,25-34,0.6
+Squash,35-44,0.5
+Squash,45-54,0.4
+Squash,55-64,0.4
+Squash,65+,0.2
+Surfing,15-17,2.2
+Surfing,18-24,1.3
+Surfing,25-34,1.6
+Surfing,35-44,1.8
+Surfing,45-54,1.8
+Surfing,55-64,1.4
+Surfing,65+,0.5
+Swimming,15-17,17.6
+Swimming,18-24,16.3
+Swimming,25-34,16.6
+Swimming,35-44,18.3
+Swimming,45-54,16.7
+Swimming,55-64,16.0
+Swimming,65+,9.7
+Sword fighting,15-17,0.0
+Sword fighting,18-24,0.1
+Sword fighting,25-34,0.1
+Sword fighting,35-44,0.0
+Sword fighting,45-54,0.0
+Sword fighting,55-64,0.0
+Sword fighting,65+,0.0
+Synchronised swimming,15-17,0.0
+Synchronised swimming,18-24,0.1
+Synchronised swimming,25-34,0.1
+Synchronised swimming,35-44,0.1
+Synchronised swimming,45-54,0.1
+Synchronised swimming,55-64,0.0
+Synchronised swimming,65+,0.0
+Table tennis,15-17,6.5
+Table tennis,18-24,3.3
+Table tennis,25-34,2.3
+Table tennis,35-44,1.6
+Table tennis,45-54,1.4
+Table tennis,55-64,0.9
+Table tennis,65+,0.5
+Taekwondo/Taekwon-do,15-17,0.9
+Taekwondo/Taekwon-do,18-24,0.2
+Taekwondo/Taekwon-do,25-34,0.1
+Taekwondo/Taekwon-do,35-44,0.1
+Taekwondo/Taekwon-do,45-54,0.1
+Taekwondo/Taekwon-do,55-64,0.1
+Taekwondo/Taekwon-do,65+,0.0
+Tee ball,15-17,0.0
+Tee ball,18-24,0.1
+Tee ball,25-34,0.0
+Tee ball,35-44,0.0
+Tee ball,45-54,0.0
+Tee ball,55-64,0.0
+Tee ball,65+,0.0
+Tennis,15-17,9.5
+Tennis,18-24,7.5
+Tennis,25-34,6.5
+Tennis,35-44,5.3
+Tennis,45-54,5.3
+Tennis,55-64,3.3
+Tennis,65+,1.9
+Tenpin bowling,15-17,1.1
+Tenpin bowling,18-24,0.8
+Tenpin bowling,25-34,0.5
+Tenpin bowling,35-44,0.7
+Tenpin bowling,45-54,0.6
+Tenpin bowling,55-64,0.7
+Tenpin bowling,65+,0.4
+Tobogganing,15-17,0.0
+Tobogganing,18-24,0.0
+Tobogganing,25-34,0.0
+Tobogganing,35-44,0.0
+Tobogganing,45-54,0.0
+Tobogganing,55-64,0.0
+Tobogganing,65+,0.0
+Touch football,15-17,2.3
+Touch football,18-24,1.5
+Touch football,25-34,1.2
+Touch football,35-44,0.6
+Touch football,45-54,0.5
+Touch football,55-64,0.3
+Touch football,65+,0.1
+Triathlon,15-17,0.3
+Triathlon,18-24,0.2
+Triathlon,25-34,0.2
+Triathlon,35-44,0.2
+Triathlon,45-54,0.2
+Triathlon,55-64,0.0
+Triathlon,65+,0.0
+Underwater sports,15-17,0.7
+Underwater sports,18-24,0.7
+Underwater sports,25-34,1.0
+Underwater sports,35-44,1.1
+Underwater sports,45-54,0.8
+Underwater sports,55-64,1.1
+Underwater sports,65+,0.4
+Virtual based physical   activity,15-17,3.7
+Virtual based physical   activity,18-24,1.7
+Virtual based physical   activity,25-34,1.4
+Virtual based physical   activity,35-44,0.8
+Virtual based physical   activity,45-54,0.7
+Virtual based physical   activity,55-64,0.3
+Virtual based physical   activity,65+,0.3
+Volleyball (indoor and   outdoor),15-17,10.1
+Volleyball (indoor and   outdoor),18-24,3.4
+Volleyball (indoor and   outdoor),25-34,1.6
+Volleyball (indoor and   outdoor),35-44,0.7
+Volleyball (indoor and   outdoor),45-54,0.4
+Volleyball (indoor and   outdoor),55-64,0.1
+Volleyball (indoor and   outdoor),65+,0.1
+Walking (Recreational),15-17,30.3
+Walking (Recreational),18-24,34.2
+Walking (Recreational),25-34,41.9
+Walking (Recreational),35-44,47.5
+Walking (Recreational),45-54,58.7
+Walking (Recreational),55-64,66.0
+Walking (Recreational),65+,55.8
+Water polo,15-17,0.5
+Water polo,18-24,0.2
+Water polo,25-34,0.1
+Water polo,35-44,0.0
+Water polo,45-54,0.1
+Water polo,55-64,0.0
+Water polo,65+,0.0
+Waterskiing/Wakeboarding,15-17,0.0
+Waterskiing/Wakeboarding,18-24,0.2
+Waterskiing/Wakeboarding,25-34,0.2
+Waterskiing/Wakeboarding,35-44,0.1
+Waterskiing/Wakeboarding,45-54,0.2
+Waterskiing/Wakeboarding,55-64,0.2
+Waterskiing/Wakeboarding,65+,0.0
+Weight lifting,15-17,0.8
+Weight lifting,18-24,1.6
+Weight lifting,25-34,1.6
+Weight lifting,35-44,1.1
+Weight lifting,45-54,0.9
+Weight lifting,55-64,0.7
+Weight lifting,65+,0.4
+Wheelchair rugby,15-17,0.0
+Wheelchair rugby,18-24,0.0
+Wheelchair rugby,25-34,0.0
+Wheelchair rugby,35-44,0.0
+Wheelchair rugby,45-54,0.0
+Wheelchair rugby,55-64,0.0
+Wheelchair rugby,65+,0.0
+Wood chopping,15-17,0.0
+Wood chopping,18-24,0.0
+Wood chopping,25-34,0.0
+Wood chopping,35-44,0.0
+Wood chopping,45-54,0.1
+Wood chopping,55-64,0.1
+Wood chopping,65+,0.0
+Wrestling,15-17,0.0
+Wrestling,18-24,0.1
+Wrestling,25-34,0.1
+Wrestling,35-44,0.0
+Wrestling,45-54,0.0
+Wrestling,55-64,0.0
+Wrestling,65+,0.0
+Yoga,15-17,2.6
+Yoga,18-24,3.6
+Yoga,25-34,6.4
+Yoga,35-44,6.3
+Yoga,45-54,6.1
+Yoga,55-64,5.6
+Yoga,65+,3.2

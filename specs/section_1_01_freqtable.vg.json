@@ -1,0 +1,102 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "description": "How often Australian adults take part, by age group (2025)",
+    "width": "container",
+    "height": {
+        "step": 28
+    },
+    "data": {
+        "url": "data/table9.csv"
+    },
+    "params": [
+        {
+            "name": "genderSel",
+            "value": "All genders",
+            "bind": {
+                "input": "radio",
+                "options": [
+                    "All genders",
+                    "Males",
+                    "Females"
+                ],
+                "name": "Show: "
+            }
+        }
+    ],
+    "transform": [
+        {
+            "filter": "datum.gender === genderSel"
+        }
+    ],
+    "mark": "bar",
+    "encoding": {
+        "y": {
+            "field": "age_group",
+            "type": "nominal",
+            "sort": [
+                "All ages",
+                "15-17",
+                "18-24",
+                "25-34",
+                "35-44",
+                "45-54",
+                "55-64",
+                "65+"
+            ],
+            "title": "Age group"
+        },
+        "x": {
+            "field": "share",
+            "type": "quantitative",
+            "stack": "normalize",
+            "axis": {
+                "format": "%"
+            },
+            "title": "Share of adults"
+        },
+        "color": {
+            "field": "band",
+            "type": "nominal",
+            "scale": {
+                "domain": [
+                    "Did not take part",
+                    "Less than once a week",
+                    "1–2 times a week",
+                    "3+ times a week"
+                ],
+                "range": [
+                    "#d9d9d9",
+                    "#c6dbef",
+                    "#6baed6",
+                    "#08519c"
+                ]
+            },
+            "legend": {
+                "title": "How often",
+                "orient": "top"
+            }
+        },
+        "order": {
+            "field": "band_order",
+            "type": "quantitative"
+        },
+        "tooltip": [
+            {
+                "field": "age_group",
+                "type": "nominal",
+                "title": "Age group"
+            },
+            {
+                "field": "band",
+                "type": "nominal",
+                "title": "How often"
+            },
+            {
+                "field": "share",
+                "type": "quantitative",
+                "format": ".1%",
+                "title": "Share"
+            }
+        ]
+    }
+}

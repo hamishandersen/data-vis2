@@ -1,0 +1,81 @@
+age_group,barrier,share,people
+All adults,Poor health or injury,0.2722,868700
+15-17,Poor health or injury,0.1989,25200
+18-24,Poor health or injury,0.1988,55400
+25-34,Poor health or injury,0.182,78300
+35-44,Poor health or injury,0.1864,81800
+45-54,Poor health or injury,0.2329,83700
+55-64,Poor health or injury,0.3252,126200
+65+,Poor health or injury,0.3575,418100
+All adults,Getting older,0.2248,717400
+15-17,Getting older,0.0133,1700
+18-24,Getting older,0.0188,5200
+25-34,Getting older,0.0349,15000
+35-44,Getting older,0.0466,20500
+45-54,Getting older,0.1144,41100
+55-64,Getting older,0.2038,79100
+65+,Getting older,0.4743,554800
+All adults,Too lazy,0.1564,499200
+15-17,Too lazy,0.2751,34900
+18-24,Too lazy,0.1835,51200
+25-34,Too lazy,0.2075,89200
+35-44,Too lazy,0.2489,109200
+45-54,Too lazy,0.1943,69800
+55-64,Too lazy,0.1611,62500
+65+,Too lazy,0.0704,82400
+All adults,Disability,0.1511,482200
+15-17,Disability,0.0845,10700
+18-24,Disability,0.0488,13600
+25-34,Disability,0.0799,34400
+35-44,Disability,0.0598,26300
+45-54,Disability,0.1097,39400
+55-64,Disability,0.1963,76200
+65+,Disability,0.2408,281700
+All adults,Don't like sport or exercise,0.1437,458500
+15-17,Don't like sport or exercise,0.2342,29700
+18-24,Don't like sport or exercise,0.0997,27800
+25-34,Don't like sport or exercise,0.1155,49700
+35-44,Don't like sport or exercise,0.1529,67100
+45-54,Don't like sport or exercise,0.1524,54800
+55-64,Don't like sport or exercise,0.1611,62500
+65+,Don't like sport or exercise,0.1427,167000
+All adults,Not enough time,0.1305,416500
+15-17,Not enough time,0.1413,17900
+18-24,Not enough time,0.165,46000
+25-34,Not enough time,0.1728,74300
+35-44,Not enough time,0.2093,91900
+45-54,Not enough time,0.2,71900
+55-64,Not enough time,0.1813,70400
+65+,Not enough time,0.0378,44200
+All adults,Not a priority,0.1222,390200
+15-17,Not a priority,0.1383,17500
+18-24,Not a priority,0.1299,36200
+25-34,Not a priority,0.1368,58900
+35-44,Not a priority,0.1492,65500
+45-54,Not a priority,0.123,44200
+55-64,Not a priority,0.1474,57200
+65+,Not a priority,0.0946,110700
+All adults,Nobody to do it with,0.0773,246600
+15-17,Nobody to do it with,0.1695,21500
+18-24,Nobody to do it with,0.1136,31700
+25-34,Nobody to do it with,0.1073,46200
+35-44,Nobody to do it with,0.0787,34500
+45-54,Nobody to do it with,0.0639,22900
+55-64,Nobody to do it with,0.0735,28500
+65+,Nobody to do it with,0.0524,61300
+All adults,Can't afford it,0.0668,213100
+15-17,Can't afford it,0.094,11900
+18-24,Can't afford it,0.0923,25700
+25-34,Can't afford it,0.08,34400
+35-44,Can't afford it,0.0935,41000
+45-54,Can't afford it,0.0851,30600
+55-64,Can't afford it,0.0725,28100
+65+,Can't afford it,0.0353,41300
+All adults,Fear of injury,0.0659,210400
+15-17,Fear of injury,0.0795,10100
+18-24,Fear of injury,0.0619,17300
+25-34,Fear of injury,0.0673,29000
+35-44,Fear of injury,0.0622,27300
+45-54,Fear of injury,0.0572,20500
+55-64,Fear of injury,0.0759,29500
+65+,Fear of injury,0.0656,76800

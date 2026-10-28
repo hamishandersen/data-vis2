@@ -1,0 +1,170 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "description": "Interactive lollipop chart showing the 15 activities with the highest participation rates for the selected age group in the AusPlay 2025 adult participation table.",
+  "width": "container",
+  "height": {
+    "step": 30
+  },
+  "data": {
+    "url": "data/ausplay_activity_by_age_long.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+  "params": [
+    {
+      "name": "ageSelect",
+      "value": "15-17",
+      "bind": {
+        "input": "select",
+        "options": [
+          "15-17",
+          "18-24",
+          "25-34",
+          "35-44",
+          "45-54",
+          "55-64",
+          "65+"
+        ],
+        "labels": [
+          "15–17",
+          "18–24",
+          "25–34",
+          "35–44",
+          "45–54",
+          "55–64",
+          "65+"
+        ],
+        "name": "Select age group: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.ageGroup === ageSelect"
+    },
+    {
+      "window": [
+        {
+          "op": "rank",
+          "as": "activityRank"
+        }
+      ],
+      "groupby": [
+        "ageGroup"
+      ],
+      "sort": [
+        {
+          "field": "participationRate",
+          "order": "descending"
+        }
+      ]
+    },
+    {
+      "filter": "datum.activityRank <= 15"
+    }
+  ],
+  "encoding": {
+    "y": {
+      "field": "activity",
+      "type": "nominal",
+      "sort": "-x",
+      "axis": {
+        "title": null,
+        "labelLimit": 220,
+        "labelFontSize": 12
+      }
+    },
+    "x": {
+      "field": "participationRate",
+      "type": "quantitative",
+      "scale": {
+        "zero": true
+      },
+      "axis": {
+        "title": "Participation rate (%)",
+        "grid": true,
+        "format": ".1f"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "activity",
+        "type": "nominal",
+        "title": "Activity"
+      },
+      {
+        "field": "ageGroup",
+        "type": "nominal",
+        "title": "Age group"
+      },
+      {
+        "field": "participationRate",
+        "type": "quantitative",
+        "title": "Participation rate (%)",
+        "format": ".1f"
+      },
+      {
+        "field": "activityRank",
+        "type": "quantitative",
+        "title": "Popularity rank",
+        "format": "d"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {
+          "datum": 0
+        },
+        "x2": {
+          "field": "participationRate"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 100
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 7,
+        "fontSize": 11
+      },
+      "encoding": {
+        "text": {
+          "field": "participationRate",
+          "type": "quantitative",
+          "format": ".1f"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFont": "Google Sans",
+      "titleFont": "Google Sans"
+    },
+    "title": {
+      "font": "Google Sans",
+      "subtitleFont": "Google Sans"
+    },
+    "legend": {
+      "labelFont": "Google Sans",
+      "titleFont": "Google Sans"
+    }
+  }
+}

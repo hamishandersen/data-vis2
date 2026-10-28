@@ -1,0 +1,43 @@
+age,gender,level,value
+15-17,Male,At least once per year,439196
+15-17,Female,At least once per year,434663
+18-24,Male,At least once per year,1119240
+18-24,Female,At least once per year,1056178
+25-34,Male,At least once per year,1816279
+25-34,Female,At least once per year,1801538
+35-44,Male,At least once per year,1709582
+35-44,Female,At least once per year,1721933
+45-54,Male,At least once per year,1483402
+45-54,Female,At least once per year,1492458
+55-64,Male,At least once per year,1326192
+55-64,Female,At least once per year,1373168
+65+,Male,At least once per year,1721738
+65+,Female,At least once per year,1866422
+15-17,Male,At least once per week,372191
+15-17,Female,At least once per week,340936
+18-24,Male,At least once per week,868266
+18-24,Female,At least once per week,836218
+25-34,Male,At least once per week,1388008
+25-34,Female,At least once per week,1456570
+35-44,Male,At least once per week,1286772
+35-44,Female,At least once per week,1360844
+45-54,Male,At least once per week,1176329
+45-54,Female,At least once per week,1209071
+55-64,Male,At least once per week,1111178
+55-64,Female,At least once per week,1155778
+65+,Male,At least once per week,1437476
+65+,Female,At least once per week,1504700
+15-17,Male,At least three times per week,287957
+15-17,Female,At least three times per week,245559
+18-24,Male,At least three times per week,593174
+18-24,Female,At least three times per week,606041
+25-34,Male,At least three times per week,963983
+25-34,Female,At least three times per week,1063248
+35-44,Male,At least three times per week,874165
+35-44,Female,At least three times per week,967615
+45-54,Male,At least three times per week,854653
+45-54,Female,At least three times per week,901696
+55-64,Male,At least three times per week,837007
+55-64,Female,At least three times per week,918039
+65+,Male,At least three times per week,1073361
+65+,Female,At least three times per week,1114084

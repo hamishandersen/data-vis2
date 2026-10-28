@@ -1,0 +1,144 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": {
+        "step": 32
+    },
+    "data": {
+        "url": "data/ausplay_motivations_heatmap.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
+    "params": [
+        {
+            "name": "genderSelect",
+            "value": "All",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "All",
+                    "Males",
+                    "Females"
+                ],
+                "name": "Gender: "
+            }
+        }
+    ],
+    "transform": [
+        {
+            "filter": "datum.gender === genderSelect"
+        }
+    ],
+    "mark": {
+        "type": "rect",
+        "stroke": "white",
+        "strokeWidth": 1,
+        "cornerRadius": 2
+    },
+    "encoding": {
+        "x": {
+            "field": "age_group",
+            "type": "ordinal",
+            "sort": [
+                "15-17",
+                "18-24",
+                "25-34",
+                "35-44",
+                "45-54",
+                "55-64",
+                "65+"
+            ],
+            "title": "Age group",
+            "axis": {
+                "labelAngle": 0,
+                "labelFontSize": 11
+            }
+        },
+        "y": {
+            "field": "motivation",
+            "type": "ordinal",
+            "sort": [
+                "Physical health or fitness",
+                "Fun/enjoyment",
+                "To lose weight/keep weight off/tone",
+                "To be outdoors/to enjoy nature",
+                "Social reasons",
+                "Psychological/mental health/therapy",
+                "Sense of achievement",
+                "Hobby",
+                "Training purposes",
+                "Walk the dog",
+                "Learn a new skill",
+                "Performance or competition",
+                "Way of getting around",
+                "Physio/rehab/physical therapy/post-op",
+                "To be a good role model",
+                "Professional/part of my job"
+            ],
+            "title": "Motivation",
+            "axis": {
+                "labelLimit": 260,
+                "labelFontSize": 11,
+                "labelPadding": 7,
+                "ticks": false,
+                "domain": false
+            }
+        },
+        "color": {
+            "field": "percentage",
+            "type": "quantitative",
+            "scale": {
+                "domain": [
+                    0,
+                    75
+                ],
+                "scheme": "tealblues"
+            },
+            "legend": {
+                "title": "Participants (%)",
+                "orient": "bottom",
+                "gradientLength": 300
+            }
+        },
+        "tooltip": [
+            {
+                "field": "gender",
+                "type": "nominal",
+                "title": "Gender"
+            },
+            {
+                "field": "age_group",
+                "type": "ordinal",
+                "title": "Age group"
+            },
+            {
+                "field": "motivation",
+                "type": "nominal",
+                "title": "Motivation"
+            },
+            {
+                "field": "percentage",
+                "type": "quantitative",
+                "title": "Participants",
+                "format": ".1f",
+                "formatType": "number"
+            }
+        ]
+    },
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "axis": {
+            "grid": false,
+            "labelFont": "Google Sans",
+            "titleFont": "Google Sans"
+        },
+        "title": {
+            "font": "Google Sans",
+            "subtitleFont": "Google Sans",
+            "anchor": "start"
+        }
+    }
+}

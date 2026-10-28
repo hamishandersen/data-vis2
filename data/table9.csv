@@ -1,0 +1,97 @@
+gender,age_group,band,band_order,share
+All genders,All ages,Did not take part,1,0.141
+All genders,All ages,Less than once a week,2,0.1713
+All genders,All ages,1–2 times a week,3,0.1865
+All genders,All ages,3+ times a week,4,0.5011
+All genders,15-17,Did not take part,1,0.1257
+All genders,15-17,Less than once a week,2,0.164
+All genders,15-17,1–2 times a week,3,0.1795
+All genders,15-17,3+ times a week,4,0.5308
+All genders,18-24,Did not take part,1,0.1125
+All genders,18-24,Less than once a week,2,0.192
+All genders,18-24,1–2 times a week,3,0.2064
+All genders,18-24,3+ times a week,4,0.4891
+All genders,25-34,Did not take part,1,0.1057
+All genders,25-34,Less than once a week,2,0.1914
+All genders,25-34,1–2 times a week,3,0.2021
+All genders,25-34,3+ times a week,4,0.5009
+All genders,35-44,Did not take part,1,0.113
+All genders,35-44,Less than once a week,2,0.2026
+All genders,35-44,1–2 times a week,3,0.208
+All genders,35-44,3+ times a week,4,0.4764
+All genders,45-54,Did not take part,1,0.1075
+All genders,45-54,Less than once a week,2,0.1771
+All genders,45-54,1–2 times a week,3,0.1889
+All genders,45-54,3+ times a week,4,0.5265
+All genders,55-64,Did not take part,1,0.1255
+All genders,55-64,Less than once a week,2,0.14
+All genders,55-64,1–2 times a week,3,0.1659
+All genders,55-64,3+ times a week,4,0.5686
+All genders,65+,Did not take part,1,0.2457
+All genders,65+,Less than once a week,2,0.1358
+All genders,65+,1–2 times a week,3,0.1586
+All genders,65+,3+ times a week,4,0.4599
+Males,All ages,Did not take part,1,0.1331
+Males,All ages,Less than once a week,2,0.1781
+Males,All ages,1–2 times a week,3,0.1944
+Males,All ages,3+ times a week,4,0.4944
+Males,15-17,Did not take part,1,0.1414
+Males,15-17,Less than once a week,2,0.131
+Males,15-17,1–2 times a week,3,0.1647
+Males,15-17,3+ times a week,4,0.563
+Males,18-24,Did not take part,1,0.119
+Males,18-24,Less than once a week,2,0.1976
+Males,18-24,1–2 times a week,3,0.2165
+Males,18-24,3+ times a week,4,0.4669
+Males,25-34,Did not take part,1,0.106
+Males,25-34,Less than once a week,2,0.2108
+Males,25-34,1–2 times a week,3,0.2087
+Males,25-34,3+ times a week,4,0.4745
+Males,35-44,Did not take part,1,0.1088
+Males,35-44,Less than once a week,2,0.2204
+Males,35-44,1–2 times a week,3,0.2151
+Males,35-44,3+ times a week,4,0.4557
+Males,45-54,Did not take part,1,0.0973
+Males,45-54,Less than once a week,2,0.1869
+Males,45-54,1–2 times a week,3,0.1957
+Males,45-54,3+ times a week,4,0.5201
+Males,55-64,Did not take part,1,0.1202
+Males,55-64,Less than once a week,2,0.1426
+Males,55-64,1–2 times a week,3,0.1819
+Males,55-64,3+ times a week,4,0.5553
+Males,65+,Did not take part,1,0.221
+Males,65+,Less than once a week,2,0.1286
+Males,65+,1–2 times a week,3,0.1648
+Males,65+,3+ times a week,4,0.4857
+Females,All ages,Did not take part,1,0.1476
+Females,All ages,Less than once a week,2,0.1646
+Females,All ages,1–2 times a week,3,0.1791
+Females,All ages,3+ times a week,4,0.5087
+Females,15-17,Did not take part,1,0.1041
+Females,15-17,Less than once a week,2,0.1932
+Females,15-17,1–2 times a week,3,0.1966
+Females,15-17,3+ times a week,4,0.5061
+Females,18-24,Did not take part,1,0.1052
+Females,18-24,Less than once a week,2,0.1864
+Females,18-24,1–2 times a week,3,0.195
+Females,18-24,3+ times a week,4,0.5134
+Females,25-34,Did not take part,1,0.105
+Females,25-34,Less than once a week,2,0.1714
+Females,25-34,1–2 times a week,3,0.1954
+Females,25-34,3+ times a week,4,0.5282
+Females,35-44,Did not take part,1,0.1166
+Females,35-44,Less than once a week,2,0.1852
+Females,35-44,1–2 times a week,3,0.2017
+Females,35-44,3+ times a week,4,0.4964
+Females,45-54,Did not take part,1,0.1173
+Females,45-54,Less than once a week,2,0.1676
+Females,45-54,1–2 times a week,3,0.1818
+Females,45-54,3+ times a week,4,0.5333
+Females,55-64,Did not take part,1,0.1297
+Females,55-64,Less than once a week,2,0.1378
+Females,55-64,1–2 times a week,3,0.1507
+Females,55-64,3+ times a week,4,0.5819
+Females,65+,Did not take part,1,0.2646
+Females,65+,Less than once a week,2,0.1425
+Females,65+,1–2 times a week,3,0.1539
+Females,65+,3+ times a week,4,0.439

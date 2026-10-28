@@ -1,0 +1,96 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "data": {
+        "url": "data/age_gap_profile.csv"
+    },
+    "width": "container",
+    "height": 320,
+    "layer": [
+        {
+            "mark": {
+                "type": "rule",
+                "strokeDash": [
+                    4,
+                    4
+                ],
+                "color": "gray"
+            },
+            "encoding": {
+                "y": {
+                    "datum": 0
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "line",
+                "point": true,
+                "strokeWidth": 2.5
+            },
+            "encoding": {
+                "x": {
+                    "field": "age_group",
+                    "type": "ordinal",
+                    "title": "Age group",
+                    "sort": [
+                        "15-17",
+                        "18-24",
+                        "25-34",
+                        "35-44",
+                        "45-54",
+                        "55-64",
+                        "65+"
+                    ],
+                    "axis": {
+                        "labelAngle": 0
+                    }
+                },
+                "y": {
+                    "field": "gap_pp",
+                    "type": "quantitative",
+                    "title": "Percentage points above / below national average"
+                },
+                "color": {
+                    "field": "survey",
+                    "type": "nominal",
+                    "scale": {
+                        "domain": [
+                            "ABS 2013-14",
+                            "AusPlay 2025"
+                        ],
+                        "range": [
+                            "#e08a2c",
+                            "#2b5aa8"
+                        ]
+                    },
+                    "legend": {
+                        "title": null,
+                        "orient": "top"
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "survey",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "age_group",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "rate",
+                        "type": "quantitative",
+                        "format": ".1f",
+                        "title": "Participation (%)"
+                    },
+                    {
+                        "field": "gap_pp",
+                        "type": "quantitative",
+                        "format": "+.1f",
+                        "title": "Gap (points)"
+                    }
+                ]
+            }
+        }
+    ]
+}

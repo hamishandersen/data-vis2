@@ -1,0 +1,148 @@
+sex,age_group,body_part,injury_rate
+All,Total,"Hip, knee and/or leg",7.9
+All,Total,Ankle and/or foot,4.9
+All,Total,Shoulder and/or arm,4.3
+All,Total,Back and/or trunk,3.8
+All,Total,Wrist and/or hand,2.4
+All,Total,Head and/or neck,1.3
+All,Total,Other,0.4
+All,18-24,"Hip, knee and/or leg",9.3
+All,18-24,Ankle and/or foot,7.5
+All,18-24,Shoulder and/or arm,4.5
+All,18-24,Back and/or trunk,3.2
+All,18-24,Wrist and/or hand,4.6
+All,18-24,Head and/or neck,2.0
+All,18-24,Other,0.5
+All,25-34,"Hip, knee and/or leg",7.4
+All,25-34,Ankle and/or foot,5.2
+All,25-34,Shoulder and/or arm,4.1
+All,25-34,Back and/or trunk,3.8
+All,25-34,Wrist and/or hand,3.1
+All,25-34,Head and/or neck,1.5
+All,25-34,Other,0.3
+All,35-44,"Hip, knee and/or leg",7.2
+All,35-44,Ankle and/or foot,4.9
+All,35-44,Shoulder and/or arm,3.8
+All,35-44,Back and/or trunk,4.2
+All,35-44,Wrist and/or hand,2.4
+All,35-44,Head and/or neck,1.6
+All,35-44,Other,0.4
+All,45-54,"Hip, knee and/or leg",9.2
+All,45-54,Ankle and/or foot,5.3
+All,45-54,Shoulder and/or arm,5.5
+All,45-54,Back and/or trunk,4.3
+All,45-54,Wrist and/or hand,2.1
+All,45-54,Head and/or neck,1.3
+All,45-54,Other,0.3
+All,55-64,"Hip, knee and/or leg",9.0
+All,55-64,Ankle and/or foot,4.6
+All,55-64,Shoulder and/or arm,5.1
+All,55-64,Back and/or trunk,3.9
+All,55-64,Wrist and/or hand,1.7
+All,55-64,Head and/or neck,1.0
+All,55-64,Other,0.6
+All,65+,"Hip, knee and/or leg",6.2
+All,65+,Ankle and/or foot,2.7
+All,65+,Shoulder and/or arm,3.5
+All,65+,Back and/or trunk,3.3
+All,65+,Wrist and/or hand,1.3
+All,65+,Head and/or neck,0.7
+All,65+,Other,0.4
+Males,Total,"Hip, knee and/or leg",8.1
+Males,Total,Ankle and/or foot,4.9
+Males,Total,Shoulder and/or arm,5.3
+Males,Total,Back and/or trunk,3.9
+Males,Total,Wrist and/or hand,2.9
+Males,Total,Head and/or neck,1.5
+Males,Total,Other,0.4
+Males,18-24,"Hip, knee and/or leg",9.9
+Males,18-24,Ankle and/or foot,7.9
+Males,18-24,Shoulder and/or arm,5.9
+Males,18-24,Back and/or trunk,3.0
+Males,18-24,Wrist and/or hand,6.2
+Males,18-24,Head and/or neck,2.6
+Males,18-24,Other,0.6
+Males,25-34,"Hip, knee and/or leg",7.4
+Males,25-34,Ankle and/or foot,4.6
+Males,25-34,Shoulder and/or arm,4.9
+Males,25-34,Back and/or trunk,3.9
+Males,25-34,Wrist and/or hand,3.6
+Males,25-34,Head and/or neck,1.7
+Males,25-34,Other,0.2
+Males,35-44,"Hip, knee and/or leg",7.4
+Males,35-44,Ankle and/or foot,4.7
+Males,35-44,Shoulder and/or arm,4.5
+Males,35-44,Back and/or trunk,4.3
+Males,35-44,Wrist and/or hand,3.0
+Males,35-44,Head and/or neck,1.8
+Males,35-44,Other,0.4
+Males,45-54,"Hip, knee and/or leg",9.4
+Males,45-54,Ankle and/or foot,5.9
+Males,45-54,Shoulder and/or arm,6.1
+Males,45-54,Back and/or trunk,4.8
+Males,45-54,Wrist and/or hand,2.4
+Males,45-54,Head and/or neck,1.5
+Males,45-54,Other,0.3
+Males,55-64,"Hip, knee and/or leg",9.0
+Males,55-64,Ankle and/or foot,4.2
+Males,55-64,Shoulder and/or arm,6.2
+Males,55-64,Back and/or trunk,4.0
+Males,55-64,Wrist and/or hand,2.0
+Males,55-64,Head and/or neck,1.0
+Males,55-64,Other,0.6
+Males,65+,"Hip, knee and/or leg",6.4
+Males,65+,Ankle and/or foot,3.0
+Males,65+,Shoulder and/or arm,4.7
+Males,65+,Back and/or trunk,3.4
+Males,65+,Wrist and/or hand,1.1
+Males,65+,Head and/or neck,0.7
+Males,65+,Other,0.3
+Females,Total,"Hip, knee and/or leg",7.6
+Females,Total,Ankle and/or foot,4.8
+Females,Total,Shoulder and/or arm,3.4
+Females,Total,Back and/or trunk,3.6
+Females,Total,Wrist and/or hand,2.0
+Females,Total,Head and/or neck,1.2
+Females,Total,Other,0.4
+Females,18-24,"Hip, knee and/or leg",8.7
+Females,18-24,Ankle and/or foot,7.1
+Females,18-24,Shoulder and/or arm,3.1
+Females,18-24,Back and/or trunk,3.3
+Females,18-24,Wrist and/or hand,2.9
+Females,18-24,Head and/or neck,1.4
+Females,18-24,Other,0.3
+Females,25-34,"Hip, knee and/or leg",7.4
+Females,25-34,Ankle and/or foot,5.8
+Females,25-34,Shoulder and/or arm,3.2
+Females,25-34,Back and/or trunk,3.6
+Females,25-34,Wrist and/or hand,2.6
+Females,25-34,Head and/or neck,1.4
+Females,25-34,Other,0.3
+Females,35-44,"Hip, knee and/or leg",7.0
+Females,35-44,Ankle and/or foot,5.0
+Females,35-44,Shoulder and/or arm,3.2
+Females,35-44,Back and/or trunk,4.2
+Females,35-44,Wrist and/or hand,1.9
+Females,35-44,Head and/or neck,1.3
+Females,35-44,Other,0.4
+Females,45-54,"Hip, knee and/or leg",9.0
+Females,45-54,Ankle and/or foot,4.7
+Females,45-54,Shoulder and/or arm,4.9
+Females,45-54,Back and/or trunk,3.8
+Females,45-54,Wrist and/or hand,1.9
+Females,45-54,Head and/or neck,1.1
+Females,45-54,Other,0.3
+Females,55-64,"Hip, knee and/or leg",8.9
+Females,55-64,Ankle and/or foot,5.1
+Females,55-64,Shoulder and/or arm,3.9
+Females,55-64,Back and/or trunk,3.8
+Females,55-64,Wrist and/or hand,1.4
+Females,55-64,Head and/or neck,1.0
+Females,55-64,Other,0.5
+Females,65+,"Hip, knee and/or leg",5.9
+Females,65+,Ankle and/or foot,2.3
+Females,65+,Shoulder and/or arm,2.4
+Females,65+,Back and/or trunk,3.1
+Females,65+,Wrist and/or hand,1.4
+Females,65+,Head and/or neck,0.8
+Females,65+,Other,0.4

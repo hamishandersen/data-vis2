@@ -1,0 +1,233 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "description": "Share of women and men who take part in each of the 14 most popular activities, 2025",
+    "data": {
+        "url": "data/activity_by_gender.csv"
+    },
+    "spacing": 8,
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "axis": {
+            "grid": false
+        }
+    },
+    "hconcat": [
+        {
+            "title": "Women",
+            "width": 280,
+            "height": {
+                "step": 24
+            },
+            "encoding": {
+                "y": {
+                    "field": "activity",
+                    "type": "nominal",
+                    "axis": null,
+                    "sort": [
+                        "Walking",
+                        "Pilates",
+                        "Yoga",
+                        "Bush walking",
+                        "Fitness or gym",
+                        "Swimming",
+                        "Tennis",
+                        "Australian football",
+                        "Cricket",
+                        "Cycling",
+                        "Basketball",
+                        "Running",
+                        "Golf",
+                        "Soccer"
+                    ]
+                },
+                "x": {
+                    "field": "women_pct",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [
+                            0,
+                            65
+                        ],
+                        "reverse": true
+                    },
+                    "axis": {
+                        "title": "% of women who take part",
+                        "tickCount": 4
+                    }
+                }
+            },
+            "layer": [
+                {
+                    "mark": {
+                        "type": "bar",
+                        "color": "#675193"
+                    },
+                    "encoding": {
+                        "tooltip": [
+                            {
+                                "field": "activity",
+                                "type": "nominal",
+                                "title": "Activity"
+                            },
+                            {
+                                "field": "women_pct",
+                                "type": "quantitative",
+                                "format": ".1f",
+                                "title": "Women (%)"
+                            },
+                            {
+                                "field": "men_pct",
+                                "type": "quantitative",
+                                "format": ".1f",
+                                "title": "Men (%)"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "text",
+                        "align": "right",
+                        "dx": -4,
+                        "fontSize": 11
+                    },
+                    "encoding": {
+                        "text": {
+                            "field": "women_pct",
+                            "type": "quantitative",
+                            "format": ".0f"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "width": 120,
+            "height": {
+                "step": 24
+            },
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "fontWeight": "bold"
+            },
+            "encoding": {
+                "y": {
+                    "field": "activity",
+                    "type": "nominal",
+                    "axis": null,
+                    "sort": [
+                        "Walking",
+                        "Pilates",
+                        "Yoga",
+                        "Bush walking",
+                        "Fitness or gym",
+                        "Swimming",
+                        "Tennis",
+                        "Australian football",
+                        "Cricket",
+                        "Cycling",
+                        "Basketball",
+                        "Running",
+                        "Golf",
+                        "Soccer"
+                    ]
+                },
+                "text": {
+                    "field": "activity",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "title": "Men",
+            "width": 280,
+            "height": {
+                "step": 24
+            },
+            "encoding": {
+                "y": {
+                    "field": "activity",
+                    "type": "nominal",
+                    "axis": null,
+                    "sort": [
+                        "Walking",
+                        "Pilates",
+                        "Yoga",
+                        "Bush walking",
+                        "Fitness or gym",
+                        "Swimming",
+                        "Tennis",
+                        "Australian football",
+                        "Cricket",
+                        "Cycling",
+                        "Basketball",
+                        "Running",
+                        "Golf",
+                        "Soccer"
+                    ]
+                },
+                "x": {
+                    "field": "men_pct",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [
+                            0,
+                            65
+                        ]
+                    },
+                    "axis": {
+                        "title": "% of men who take part",
+                        "tickCount": 4
+                    }
+                }
+            },
+            "layer": [
+                {
+                    "mark": {
+                        "type": "bar",
+                        "color": "#ca8861"
+                    },
+                    "encoding": {
+                        "tooltip": [
+                            {
+                                "field": "activity",
+                                "type": "nominal",
+                                "title": "Activity"
+                            },
+                            {
+                                "field": "women_pct",
+                                "type": "quantitative",
+                                "format": ".1f",
+                                "title": "Women (%)"
+                            },
+                            {
+                                "field": "men_pct",
+                                "type": "quantitative",
+                                "format": ".1f",
+                                "title": "Men (%)"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "text",
+                        "align": "left",
+                        "dx": 4,
+                        "fontSize": 11
+                    },
+                    "encoding": {
+                        "text": {
+                            "field": "men_pct",
+                            "type": "quantitative",
+                            "format": ".0f"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

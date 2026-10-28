@@ -1,0 +1,139 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "data": {
+        "url": "data/activity_rank_slope.csv"
+    },
+    "width": "container",
+    "height": 600,
+    "autosize": {
+        "type": "fit",
+        "contains": "padding"
+    },
+    "padding": {
+        "left": 130,
+        "right": 130,
+        "top": 20,
+        "bottom": 20
+    },
+    "encoding": {
+        "x": {
+            "field": "period",
+            "type": "ordinal",
+            "title": null,
+            "sort": [
+                "2013-14 (ABS)",
+                "2025 (AusPlay)"
+            ],
+            "scale": {
+                "padding": 0.6
+            },
+            "axis": {
+                "orient": "top",
+                "labelAngle": 0
+            }
+        },
+        "y": {
+            "field": "rank",
+            "type": "quantitative",
+            "scale": {
+                "reverse": true,
+                "domain": [
+                    1,
+                    28
+                ],
+                "padding": 20
+            },
+            "axis": null
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "line",
+                "point": true,
+                "strokeWidth": 2
+            },
+            "encoding": {
+                "detail": {
+                    "field": "activity",
+                    "type": "nominal"
+                },
+                "color": {
+                    "field": "mover",
+                    "type": "nominal",
+                    "scale": {
+                        "domain": [
+                            "Up 5+ places",
+                            "Little change",
+                            "Down 5+ places"
+                        ],
+                        "range": [
+                            "#1b9e77",
+                            "#bdbdbd",
+                            "#d95f02"
+                        ]
+                    },
+                    "legend": {
+                        "title": null,
+                        "orient": "bottom"
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "activity",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "period",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "rank",
+                        "type": "quantitative"
+                    },
+                    {
+                        "field": "rate_pct",
+                        "type": "quantitative",
+                        "title": "Participation (%)"
+                    }
+                ]
+            }
+        },
+        {
+            "transform": [
+                {
+                    "filter": "datum.period === '2013-14 (ABS)'"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "align": "right",
+                "dx": -8
+            },
+            "encoding": {
+                "text": {
+                    "field": "activity",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "transform": [
+                {
+                    "filter": "datum.period === '2025 (AusPlay)'"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "dx": 8
+            },
+            "encoding": {
+                "text": {
+                    "field": "activity",
+                    "type": "nominal"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,167 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "description": "Weekly participants by state, 2025",
+    "width": 600,
+    "height": 450,
+    "layer": [
+        {
+            "data": {
+                "url": "data/australian_states.json",
+                "format": {
+                    "type": "topojson",
+                    "feature": "STE_2021_AUST_GDA2020"
+                }
+            },
+            "projection": {
+                "type": "conicEqualArea",
+                "parallels": [
+                    -18,
+                    -36
+                ],
+                "rotate": [
+                    -132,
+                    0
+                ]
+            },
+            "mark": {
+                "type": "geoshape",
+                "fill": "lightgray",
+                "stroke": "white"
+            }
+        },
+        {
+            "data": {
+                "url": "data/table34_csv.csv",
+                "format": {
+                    "type": "csv",
+                    "parse": {
+                        "participation_rate": "number",
+                        "year": "number"
+                    }
+                }
+            },
+            "transform": [
+                {
+                    "filter": "datum.state !== 'AUSTRALIA' && datum.gender === 'All' && datum.year === 2025 && datum.frequency === 'At least once per week'"
+                },
+                {
+                    "lookup": "state",
+                    "from": {
+                        "data": {
+                            "url": "data/state_weekly_counts_2025.csv"
+                        },
+                        "key": "state",
+                        "fields": [
+                            "weekly_participants",
+                            "longitude",
+                            "latitude"
+                        ]
+                    }
+                }
+            ],
+            "projection": {
+                "type": "conicEqualArea",
+                "parallels": [
+                    -18,
+                    -36
+                ],
+                "rotate": [
+                    -132,
+                    0
+                ]
+            },
+            "mark": {
+                "type": "circle",
+                "opacity": 0.8,
+                "stroke": "white"
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "longitude",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "latitude",
+                    "type": "quantitative"
+                },
+                "size": {
+                    "field": "weekly_participants",
+                    "type": "quantitative",
+                    "scale": {
+                        "range": [
+                            100,
+                            4000
+                        ]
+                    },
+                    "legend": {
+                        "title": "Weekly participants",
+                        "orient": "bottom"
+                    }
+                },
+                "color": {
+                    "field": "participation_rate",
+                    "type": "quantitative",
+                    "scale": {
+                        "scheme": "blues",
+                        "domain": [
+                            65,
+                            80
+                        ]
+                    },
+                    "legend": {
+                        "title": "Weekly participation (%)",
+                        "orient": "bottom"
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "state",
+                        "type": "nominal"
+                    },
+                    {
+                        "field": "weekly_participants",
+                        "type": "quantitative",
+                        "format": ",",
+                        "title": "Participants"
+                    },
+                    {
+                        "field": "participation_rate",
+                        "type": "quantitative",
+                        "format": ".1f",
+                        "title": "Rate (%)"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "url": "data/state_weekly_counts_2025.csv",
+                "format": {
+                    "type": "csv"
+                }
+            },
+            "mark": {
+                "type": "text",
+                "font": "Google Sans",
+                "fontSize": 12,
+                "fontWeight": "bold",
+                "color": "#202124",
+                "dy": 32
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "longitude",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "latitude",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "field": "state",
+                    "type": "nominal"
+                }
+            }
+        }
+    ]
+}

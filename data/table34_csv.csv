@@ -1,0 +1,163 @@
+state,gender,year,frequency,participation_rate
+ACT,All,2024,At least once per year,92.2 
+ACT,All,2024,At least once per week,76.6 
+ACT,All,2024,At least three times per week,58.2 
+ACT,All,2025,At least once per year,92.2 
+ACT,All,2025,At least once per week,78.3 
+ACT,All,2025,At least three times per week,59.2 
+ACT,Males,2024,At least once per year,90.4 
+ACT,Males,2024,At least once per week,76.8 
+ACT,Males,2024,At least three times per week,57.3 
+ACT,Males,2025,At least once per year,90.8 
+ACT,Males,2025,At least once per week,75.5 
+ACT,Males,2025,At least three times per week,55.1 
+ACT,Females,2024,At least once per year,93.9 
+ACT,Females,2024,At least once per week,77.0 
+ACT,Females,2024,At least three times per week,59.6 
+ACT,Females,2025,At least once per year,94.2 
+ACT,Females,2025,At least once per week,81.2 
+ACT,Females,2025,At least three times per week,63.3 
+NSW,All,2024,At least once per year,85.5 
+NSW,All,2024,At least once per week,66.5 
+NSW,All,2024,At least three times per week,47.3 
+NSW,All,2025,At least once per year,85.4 
+NSW,All,2025,At least once per week,67.2 
+NSW,All,2025,At least three times per week,47.9 
+NSW,Males,2024,At least once per year,86.8 
+NSW,Males,2024,At least once per week,66.4 
+NSW,Males,2024,At least three times per week,46.8 
+NSW,Males,2025,At least once per year,86.6 
+NSW,Males,2025,At least once per week,67.5 
+NSW,Males,2025,At least three times per week,47.5 
+NSW,Females,2024,At least once per year,84.5 
+NSW,Females,2024,At least once per week,66.8 
+NSW,Females,2024,At least three times per week,47.8 
+NSW,Females,2025,At least once per year,84.3 
+NSW,Females,2025,At least once per week,67.0 
+NSW,Females,2025,At least three times per week,48.5 
+NT,All,2024,At least once per year,86.4 
+NT,All,2024,At least once per week,69.9 
+NT,All,2024,At least three times per week,50.4 
+NT,All,2025,At least once per year,89.3 
+NT,All,2025,At least once per week,73.0 
+NT,All,2025,At least three times per week,54.4 
+NT,Males,2024,At least once per year,90.0 
+NT,Males,2024,At least once per week,73.8 
+NT,Males,2024,At least three times per week,49.9 
+NT,Males,2025,At least once per year,87.6 
+NT,Males,2025,At least once per week,67.2 
+NT,Males,2025,At least three times per week,48.0 
+NT,Females,2024,At least once per year,83.4 
+NT,Females,2024,At least once per week,66.8 
+NT,Females,2024,At least three times per week,50.9 
+NT,Females,2025,At least once per year,90.8 
+NT,Females,2025,At least once per week,78.0 
+NT,Females,2025,At least three times per week,60.0 
+QLD,All,2024,At least once per year,82.9 
+QLD,All,2024,At least once per week,65.0 
+QLD,All,2024,At least three times per week,47.2 
+QLD,All,2025,At least once per year,83.9 
+QLD,All,2025,At least once per week,67.4 
+QLD,All,2025,At least three times per week,49.6 
+QLD,Males,2024,At least once per year,84.0 
+QLD,Males,2024,At least once per week,65.1 
+QLD,Males,2024,At least three times per week,46.5 
+QLD,Males,2025,At least once per year,84.9 
+QLD,Males,2025,At least once per week,67.6 
+QLD,Males,2025,At least three times per week,49.3 
+QLD,Females,2024,At least once per year,82.1 
+QLD,Females,2024,At least once per week,65.0 
+QLD,Females,2024,At least three times per week,48.1 
+QLD,Females,2025,At least once per year,83.1 
+QLD,Females,2025,At least once per week,67.2 
+QLD,Females,2025,At least three times per week,49.9 
+SA,All,2024,At least once per year,83.5 
+SA,All,2024,At least once per week,65.1 
+SA,All,2024,At least three times per week,46.1 
+SA,All,2025,At least once per year,84.3 
+SA,All,2025,At least once per week,67.0 
+SA,All,2025,At least three times per week,48.6 
+SA,Males,2024,At least once per year,83.4 
+SA,Males,2024,At least once per week,66.0 
+SA,Males,2024,At least three times per week,45.6 
+SA,Males,2025,At least once per year,83.7 
+SA,Males,2025,At least once per week,67.5 
+SA,Males,2025,At least three times per week,49.3 
+SA,Females,2024,At least once per year,83.9 
+SA,Females,2024,At least once per week,64.6 
+SA,Females,2024,At least three times per week,46.8 
+SA,Females,2025,At least once per year,85.0 
+SA,Females,2025,At least once per week,66.7 
+SA,Females,2025,At least three times per week,48.0 
+TAS,All,2024,At least once per year,86.4 
+TAS,All,2024,At least once per week,69.6 
+TAS,All,2024,At least three times per week,53.3 
+TAS,All,2025,At least once per year,87.0 
+TAS,All,2025,At least once per week,69.4 
+TAS,All,2025,At least three times per week,51.3 
+TAS,Males,2024,At least once per year,85.2 
+TAS,Males,2024,At least once per week,67.4 
+TAS,Males,2024,At least three times per week,51.5 
+TAS,Males,2025,At least once per year,85.3 
+TAS,Males,2025,At least once per week,66.9 
+TAS,Males,2025,At least three times per week,48.0 
+TAS,Females,2024,At least once per year,87.5 
+TAS,Females,2024,At least once per week,71.8 
+TAS,Females,2024,At least three times per week,55.1 
+TAS,Females,2025,At least once per year,88.3 
+TAS,Females,2025,At least once per week,71.6 
+TAS,Females,2025,At least three times per week,54.1 
+VIC,All,2024,At least once per year,86.6 
+VIC,All,2024,At least once per week,69.1 
+VIC,All,2024,At least three times per week,49.7 
+VIC,All,2025,At least once per year,87.5 
+VIC,All,2025,At least once per week,70.5 
+VIC,All,2025,At least three times per week,51.7 
+VIC,Males,2024,At least once per year,87.2 
+VIC,Males,2024,At least once per week,68.6 
+VIC,Males,2024,At least three times per week,47.6 
+VIC,Males,2025,At least once per year,88.5 
+VIC,Males,2025,At least once per week,71.1 
+VIC,Males,2025,At least three times per week,51.2 
+VIC,Females,2024,At least once per year,86.1 
+VIC,Females,2024,At least once per week,69.7 
+VIC,Females,2024,At least three times per week,51.8 
+VIC,Females,2025,At least once per year,86.7 
+VIC,Females,2025,At least once per week,70.1 
+VIC,Females,2025,At least three times per week,52.3 
+WA,All,2024,At least once per year,85.7 
+WA,All,2024,At least once per week,66.9 
+WA,All,2024,At least three times per week,48.3 
+WA,All,2025,At least once per year,86.8 
+WA,All,2025,At least once per week,70.9 
+WA,All,2025,At least three times per week,52.5 
+WA,Males,2024,At least once per year,85.7 
+WA,Males,2024,At least once per week,66.7 
+WA,Males,2024,At least three times per week,47.3 
+WA,Males,2025,At least once per year,87.7 
+WA,Males,2025,At least once per week,70.4 
+WA,Males,2025,At least three times per week,50.7 
+WA,Females,2024,At least once per year,85.9 
+WA,Females,2024,At least once per week,67.1 
+WA,Females,2024,At least three times per week,49.3 
+WA,Females,2025,At least once per year,86.1 
+WA,Females,2025,At least once per week,71.6 
+WA,Females,2025,At least three times per week,54.4 
+AUSTRALIA,All,2024,At least once per year,85.3 
+AUSTRALIA,All,2024,At least once per week,67.1 
+AUSTRALIA,All,2024,At least three times per week,48.3 
+AUSTRALIA,All,2025,At least once per year,85.9 
+AUSTRALIA,All,2025,At least once per week,68.8 
+AUSTRALIA,All,2025,At least three times per week,50.1 
+AUSTRALIA,Males,2024,At least once per year,86.0 
+AUSTRALIA,Males,2024,At least once per week,67.0 
+AUSTRALIA,Males,2024,At least three times per week,47.2 
+AUSTRALIA,Males,2025,At least once per year,86.7 
+AUSTRALIA,Males,2025,At least once per week,68.9 
+AUSTRALIA,Males,2025,At least three times per week,49.4 
+AUSTRALIA,Females,2024,At least once per year,84.7 
+AUSTRALIA,Females,2024,At least once per week,67.3 
+AUSTRALIA,Females,2024,At least three times per week,49.4 
+AUSTRALIA,Females,2025,At least once per year,85.2 
+AUSTRALIA,Females,2025,At least once per week,68.8 
+AUSTRALIA,Females,2025,At least three times per week,50.9 

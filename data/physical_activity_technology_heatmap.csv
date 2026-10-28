@@ -1,0 +1,316 @@
+gender,age_group,technology,proportion
+All,15-17,Music apps,66.4
+All,15-17,Headphones/speakers,54.9
+All,15-17,Activity tracking or training apps,30.0
+All,15-17,Wearable technology,27.2
+All,15-17,Maps and GPS apps,23.3
+All,15-17,Fitness/exercise video sessions,15.3
+All,15-17,Indoor smart trainers or treadmills,13.0
+All,15-17,Apps used during the activity (e.g. scoring),10.6
+All,15-17,Websites or online tools (excluding social media),9.6
+All,15-17,Bike computers/speedometers/odometers,7.4
+All,15-17,Free social media sites/pages,9.0
+All,15-17,Motion-sensing exercise video games,10.7
+All,15-17,Cameras/GoPros,4.2
+All,15-17,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",3.6
+All,15-17,Paid online programs,2.5
+All,18-24,Music apps,63.1
+All,18-24,Headphones/speakers,57.9
+All,18-24,Activity tracking or training apps,37.4
+All,18-24,Wearable technology,31.5
+All,18-24,Maps and GPS apps,26.3
+All,18-24,Fitness/exercise video sessions,19.6
+All,18-24,Indoor smart trainers or treadmills,15.7
+All,18-24,Apps used during the activity (e.g. scoring),13.7
+All,18-24,Websites or online tools (excluding social media),11.6
+All,18-24,Bike computers/speedometers/odometers,7.9
+All,18-24,Free social media sites/pages,11.2
+All,18-24,Motion-sensing exercise video games,10.8
+All,18-24,Cameras/GoPros,6.0
+All,18-24,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",5.8
+All,18-24,Paid online programs,4.5
+All,25-34,Music apps,56.9
+All,25-34,Headphones/speakers,52.4
+All,25-34,Activity tracking or training apps,42.1
+All,25-34,Wearable technology,36.4
+All,25-34,Maps and GPS apps,26.3
+All,25-34,Fitness/exercise video sessions,18.9
+All,25-34,Indoor smart trainers or treadmills,15.4
+All,25-34,Apps used during the activity (e.g. scoring),12.9
+All,25-34,Websites or online tools (excluding social media),11.1
+All,25-34,Bike computers/speedometers/odometers,7.7
+All,25-34,Free social media sites/pages,11.7
+All,25-34,Motion-sensing exercise video games,8.7
+All,25-34,Cameras/GoPros,6.2
+All,25-34,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",5.7
+All,25-34,Paid online programs,5.3
+All,35-44,Music apps,47.4
+All,35-44,Headphones/speakers,43.3
+All,35-44,Activity tracking or training apps,40.4
+All,35-44,Wearable technology,35.1
+All,35-44,Maps and GPS apps,23.5
+All,35-44,Fitness/exercise video sessions,15.1
+All,35-44,Indoor smart trainers or treadmills,12.0
+All,35-44,Apps used during the activity (e.g. scoring),10.5
+All,35-44,Websites or online tools (excluding social media),10.0
+All,35-44,Bike computers/speedometers/odometers,6.4
+All,35-44,Free social media sites/pages,9.0
+All,35-44,Motion-sensing exercise video games,5.5
+All,35-44,Cameras/GoPros,4.1
+All,35-44,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",4.5
+All,35-44,Paid online programs,4.3
+All,45-54,Music apps,39.2
+All,45-54,Headphones/speakers,38.0
+All,45-54,Activity tracking or training apps,39.9
+All,45-54,Wearable technology,35.0
+All,45-54,Maps and GPS apps,21.5
+All,45-54,Fitness/exercise video sessions,11.6
+All,45-54,Indoor smart trainers or treadmills,11.5
+All,45-54,Apps used during the activity (e.g. scoring),9.6
+All,45-54,Websites or online tools (excluding social media),8.7
+All,45-54,Bike computers/speedometers/odometers,8.0
+All,45-54,Free social media sites/pages,6.5
+All,45-54,Motion-sensing exercise video games,2.6
+All,45-54,Cameras/GoPros,3.3
+All,45-54,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",3.1
+All,45-54,Paid online programs,2.6
+All,55-64,Music apps,28.5
+All,55-64,Headphones/speakers,28.2
+All,55-64,Activity tracking or training apps,36.3
+All,55-64,Wearable technology,33.7
+All,55-64,Maps and GPS apps,20.4
+All,55-64,Fitness/exercise video sessions,10.4
+All,55-64,Indoor smart trainers or treadmills,9.3
+All,55-64,Apps used during the activity (e.g. scoring),9.2
+All,55-64,Websites or online tools (excluding social media),8.6
+All,55-64,Bike computers/speedometers/odometers,8.7
+All,55-64,Free social media sites/pages,4.8
+All,55-64,Motion-sensing exercise video games,1.1
+All,55-64,Cameras/GoPros,3.3
+All,55-64,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",1.8
+All,55-64,Paid online programs,1.8
+All,65+,Music apps,11.6
+All,65+,Headphones/speakers,11.2
+All,65+,Activity tracking or training apps,20.8
+All,65+,Wearable technology,23.9
+All,65+,Maps and GPS apps,10.5
+All,65+,Fitness/exercise video sessions,6.3
+All,65+,Indoor smart trainers or treadmills,6.5
+All,65+,Apps used during the activity (e.g. scoring),5.5
+All,65+,Websites or online tools (excluding social media),5.4
+All,65+,Bike computers/speedometers/odometers,6.8
+All,65+,Free social media sites/pages,2.5
+All,65+,Motion-sensing exercise video games,0.5
+All,65+,Cameras/GoPros,1.9
+All,65+,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",0.8
+All,65+,Paid online programs,0.5
+Males,15-17,Music apps,57.6
+Males,15-17,Headphones/speakers,47.4
+Males,15-17,Activity tracking or training apps,25.9
+Males,15-17,Wearable technology,25.8
+Males,15-17,Maps and GPS apps,23.8
+Males,15-17,Fitness/exercise video sessions,12.2
+Males,15-17,Indoor smart trainers or treadmills,10.4
+Males,15-17,Apps used during the activity (e.g. scoring),11.2
+Males,15-17,Websites or online tools (excluding social media),11.9
+Males,15-17,Bike computers/speedometers/odometers,8.4
+Males,15-17,Free social media sites/pages,8.5
+Males,15-17,Motion-sensing exercise video games,13.4
+Males,15-17,Cameras/GoPros,5.1
+Males,15-17,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",4.6
+Males,15-17,Paid online programs,3.7
+Males,18-24,Music apps,56.1
+Males,18-24,Headphones/speakers,52.6
+Males,18-24,Activity tracking or training apps,32.1
+Males,18-24,Wearable technology,26.7
+Males,18-24,Maps and GPS apps,26.5
+Males,18-24,Fitness/exercise video sessions,16.3
+Males,18-24,Indoor smart trainers or treadmills,12.5
+Males,18-24,Apps used during the activity (e.g. scoring),15.5
+Males,18-24,Websites or online tools (excluding social media),14.1
+Males,18-24,Bike computers/speedometers/odometers,10.0
+Males,18-24,Free social media sites/pages,12.5
+Males,18-24,Motion-sensing exercise video games,12.9
+Males,18-24,Cameras/GoPros,7.3
+Males,18-24,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",6.4
+Males,18-24,Paid online programs,5.0
+Males,25-34,Music apps,52.8
+Males,25-34,Headphones/speakers,47.2
+Males,25-34,Activity tracking or training apps,37.0
+Males,25-34,Wearable technology,30.1
+Males,25-34,Maps and GPS apps,27.7
+Males,25-34,Fitness/exercise video sessions,15.9
+Males,25-34,Indoor smart trainers or treadmills,13.3
+Males,25-34,Apps used during the activity (e.g. scoring),14.2
+Males,25-34,Websites or online tools (excluding social media),12.2
+Males,25-34,Bike computers/speedometers/odometers,9.1
+Males,25-34,Free social media sites/pages,12.2
+Males,25-34,Motion-sensing exercise video games,11.0
+Males,25-34,Cameras/GoPros,7.6
+Males,25-34,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",6.6
+Males,25-34,Paid online programs,3.9
+Males,35-44,Music apps,44.3
+Males,35-44,Headphones/speakers,40.5
+Males,35-44,Activity tracking or training apps,38.5
+Males,35-44,Wearable technology,30.9
+Males,35-44,Maps and GPS apps,24.8
+Males,35-44,Fitness/exercise video sessions,12.0
+Males,35-44,Indoor smart trainers or treadmills,11.3
+Males,35-44,Apps used during the activity (e.g. scoring),11.7
+Males,35-44,Websites or online tools (excluding social media),10.1
+Males,35-44,Bike computers/speedometers/odometers,7.7
+Males,35-44,Free social media sites/pages,9.8
+Males,35-44,Motion-sensing exercise video games,6.5
+Males,35-44,Cameras/GoPros,5.2
+Males,35-44,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",5.2
+Males,35-44,Paid online programs,3.3
+Males,45-54,Music apps,38.2
+Males,45-54,Headphones/speakers,37.4
+Males,45-54,Activity tracking or training apps,39.7
+Males,45-54,Wearable technology,33.0
+Males,45-54,Maps and GPS apps,25.3
+Males,45-54,Fitness/exercise video sessions,8.8
+Males,45-54,Indoor smart trainers or treadmills,10.7
+Males,45-54,Apps used during the activity (e.g. scoring),11.3
+Males,45-54,Websites or online tools (excluding social media),9.5
+Males,45-54,Bike computers/speedometers/odometers,9.7
+Males,45-54,Free social media sites/pages,6.5
+Males,45-54,Motion-sensing exercise video games,3.2
+Males,45-54,Cameras/GoPros,4.5
+Males,45-54,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",3.8
+Males,45-54,Paid online programs,1.3
+Males,55-64,Music apps,28.8
+Males,55-64,Headphones/speakers,29.3
+Males,55-64,Activity tracking or training apps,36.7
+Males,55-64,Wearable technology,33.0
+Males,55-64,Maps and GPS apps,25.5
+Males,55-64,Fitness/exercise video sessions,7.3
+Males,55-64,Indoor smart trainers or treadmills,9.6
+Males,55-64,Apps used during the activity (e.g. scoring),12.4
+Males,55-64,Websites or online tools (excluding social media),8.6
+Males,55-64,Bike computers/speedometers/odometers,10.8
+Males,55-64,Free social media sites/pages,4.5
+Males,55-64,Motion-sensing exercise video games,1.3
+Males,55-64,Cameras/GoPros,4.5
+Males,55-64,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",2.0
+Males,55-64,Paid online programs,1.0
+Males,65+,Music apps,12.9
+Males,65+,Headphones/speakers,12.6
+Males,65+,Activity tracking or training apps,22.0
+Males,65+,Wearable technology,22.3
+Males,65+,Maps and GPS apps,13.9
+Males,65+,Fitness/exercise video sessions,4.4
+Males,65+,Indoor smart trainers or treadmills,7.6
+Males,65+,Apps used during the activity (e.g. scoring),7.9
+Males,65+,Websites or online tools (excluding social media),6.6
+Males,65+,Bike computers/speedometers/odometers,8.7
+Males,65+,Free social media sites/pages,2.2
+Males,65+,Motion-sensing exercise video games,0.5
+Males,65+,Cameras/GoPros,2.7
+Males,65+,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",0.9
+Males,65+,Paid online programs,0.4
+Females,15-17,Music apps,74.5
+Females,15-17,Headphones/speakers,62.1
+Females,15-17,Activity tracking or training apps,34.5
+Females,15-17,Wearable technology,29.2
+Females,15-17,Maps and GPS apps,22.8
+Females,15-17,Fitness/exercise video sessions,18.8
+Females,15-17,Indoor smart trainers or treadmills,15.8
+Females,15-17,Apps used during the activity (e.g. scoring),9.6
+Females,15-17,Websites or online tools (excluding social media),7.1
+Females,15-17,Bike computers/speedometers/odometers,6.1
+Females,15-17,Free social media sites/pages,9.8
+Females,15-17,Motion-sensing exercise video games,7.9
+Females,15-17,Cameras/GoPros,3.0
+Females,15-17,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",2.7
+Females,15-17,Paid online programs,1.2
+Females,18-24,Music apps,70.2
+Females,18-24,Headphones/speakers,63.5
+Females,18-24,Activity tracking or training apps,43.1
+Females,18-24,Wearable technology,36.7
+Females,18-24,Maps and GPS apps,26.1
+Females,18-24,Fitness/exercise video sessions,23.0
+Females,18-24,Indoor smart trainers or treadmills,19.1
+Females,18-24,Apps used during the activity (e.g. scoring),12.0
+Females,18-24,Websites or online tools (excluding social media),9.0
+Females,18-24,Bike computers/speedometers/odometers,5.8
+Females,18-24,Free social media sites/pages,9.9
+Females,18-24,Motion-sensing exercise video games,8.4
+Females,18-24,Cameras/GoPros,4.8
+Females,18-24,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",5.2
+Females,18-24,Paid online programs,4.1
+Females,25-34,Music apps,61.0
+Females,25-34,Headphones/speakers,57.6
+Females,25-34,Activity tracking or training apps,47.3
+Females,25-34,Wearable technology,42.9
+Females,25-34,Maps and GPS apps,25.0
+Females,25-34,Fitness/exercise video sessions,22.0
+Females,25-34,Indoor smart trainers or treadmills,17.6
+Females,25-34,Apps used during the activity (e.g. scoring),11.6
+Females,25-34,Websites or online tools (excluding social media),10.0
+Females,25-34,Bike computers/speedometers/odometers,6.3
+Females,25-34,Free social media sites/pages,11.2
+Females,25-34,Motion-sensing exercise video games,6.5
+Females,25-34,Cameras/GoPros,4.9
+Females,25-34,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",4.8
+Females,25-34,Paid online programs,6.7
+Females,35-44,Music apps,50.5
+Females,35-44,Headphones/speakers,46.2
+Females,35-44,Activity tracking or training apps,42.4
+Females,35-44,Wearable technology,39.1
+Females,35-44,Maps and GPS apps,22.1
+Females,35-44,Fitness/exercise video sessions,18.2
+Females,35-44,Indoor smart trainers or treadmills,12.7
+Females,35-44,Apps used during the activity (e.g. scoring),9.4
+Females,35-44,Websites or online tools (excluding social media),9.8
+Females,35-44,Bike computers/speedometers/odometers,5.0
+Females,35-44,Free social media sites/pages,8.2
+Females,35-44,Motion-sensing exercise video games,4.4
+Females,35-44,Cameras/GoPros,3.0
+Females,35-44,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",3.9
+Females,35-44,Paid online programs,5.3
+Females,45-54,Music apps,40.2
+Females,45-54,Headphones/speakers,38.7
+Females,45-54,Activity tracking or training apps,40.2
+Females,45-54,Wearable technology,37.1
+Females,45-54,Maps and GPS apps,17.7
+Females,45-54,Fitness/exercise video sessions,14.5
+Females,45-54,Indoor smart trainers or treadmills,12.1
+Females,45-54,Apps used during the activity (e.g. scoring),8.0
+Females,45-54,Websites or online tools (excluding social media),7.9
+Females,45-54,Bike computers/speedometers/odometers,6.2
+Females,45-54,Free social media sites/pages,6.5
+Females,45-54,Motion-sensing exercise video games,2.0
+Females,45-54,Cameras/GoPros,2.1
+Females,45-54,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",2.4
+Females,45-54,Paid online programs,4.0
+Females,55-64,Music apps,28.1
+Females,55-64,Headphones/speakers,27.1
+Females,55-64,Activity tracking or training apps,35.9
+Females,55-64,Wearable technology,34.5
+Females,55-64,Maps and GPS apps,15.2
+Females,55-64,Fitness/exercise video sessions,13.4
+Females,55-64,Indoor smart trainers or treadmills,9.0
+Females,55-64,Apps used during the activity (e.g. scoring),6.2
+Females,55-64,Websites or online tools (excluding social media),8.6
+Females,55-64,Bike computers/speedometers/odometers,6.8
+Females,55-64,Free social media sites/pages,5.1
+Females,55-64,Motion-sensing exercise video games,1.0
+Females,55-64,Cameras/GoPros,2.0
+Females,55-64,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",1.5
+Females,55-64,Paid online programs,2.6
+Females,65+,Music apps,10.4
+Females,65+,Headphones/speakers,9.9
+Females,65+,Activity tracking or training apps,19.7
+Females,65+,Wearable technology,25.4
+Females,65+,Maps and GPS apps,7.3
+Females,65+,Fitness/exercise video sessions,8.0
+Females,65+,Indoor smart trainers or treadmills,5.4
+Females,65+,Apps used during the activity (e.g. scoring),3.3
+Females,65+,Websites or online tools (excluding social media),4.3
+Females,65+,Bike computers/speedometers/odometers,5.0
+Females,65+,Free social media sites/pages,2.8
+Females,65+,Motion-sensing exercise video games,0.6
+Females,65+,Cameras/GoPros,1.3
+Females,65+,"Online training platforms (e.g. Zwift, Rouvy, Fulgaz)",0.7
+Females,65+,Paid online programs,0.7

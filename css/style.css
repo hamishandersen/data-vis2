@@ -1,0 +1,251 @@
+/* colours, font and page width */
+:root {
+  --bg: #f5f4f0;
+  --card-bg: #fdfcf8;
+  --border: #dedacb;
+  --text: #1a1a1a;
+  --muted: #6b6b66;
+  --accent: #2b5aa8;
+  --font: Google Sans, system-ui, sans-serif;
+  --footer-bg: #fdfcf8;
+  --footer-link: #2b5aa8;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.6;
+}
+
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 6rem;
+}
+
+/* Pure sets its own font on every grid cell, which would override the body font */
+.pure-g [class*=pure-u] {
+  font-family: inherit;
+}
+
+/* card, titles and subtitles and source line */
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.75rem 2rem 1.25rem;
+}
+
+.chart-title {
+  margin: 0 0 0.25rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.chart-subtitle {
+  margin: 0 0 1.5rem;
+  color: var(--muted);
+}
+
+.source {
+  margin: 1.5rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+div[id^=vis-] {
+  width: 100%;
+}
+
+.vega-bindings {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.vega-bind {
+  margin-bottom: 6px;
+}
+
+.vega-bind-name {
+  display: inline-block;
+  width: 80px;
+  font-weight: 600;
+}
+
+.vega-bind label {
+  margin-right: 30px;
+}
+
+.vega-bind select {
+  font: inherit;
+  padding: 2px 6px;
+}
+
+/* centered text */
+.centered {
+  text-align: center;
+}
+
+/* ensures two columns */
+.story {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: start;
+  margin-bottom: 4rem;
+}
+
+.story-text {
+  position: sticky;
+  top: 2rem;
+}
+
+@media (max-width: 900px) {
+  .story {
+    grid-template-columns: 1fr;
+  }
+
+  .story-text {
+    position: static;
+  }
+}
+
+/* commentary column */
+.headline {
+  margin: 0 0 0.75rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.paragraph {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+/* footer */
+.site-footer {
+  margin-top: 4rem;
+  padding: 3rem 0 4rem;
+  border-top: 1px solid var(--border);
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 3rem;
+}
+
+.site-footer h2 {
+  margin: 0 0 1rem;
+  font-size: 1.6rem;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+.site-footer ol {
+  max-width: 42rem;
+  margin: 0 0 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.site-footer li {
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+}
+
+.site-footer p:not(.eyebrow) {
+  max-width: 38rem;
+  margin: 0 0 1rem;
+}
+
+.footer-note {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.site-footer a {
+  color: var(--accent);
+  text-underline-offset: 3px;
+}
+
+.site-footer a:hover {
+  color: var(--text);
+}
+
+@media (max-width: 900px) {
+  .footer-inner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* header */
+
+.hero {
+  padding: 4rem 0 3rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.hero h1 {
+  margin: 0 0 1.25rem;
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.hero-intro {
+  max-width: 38rem;
+  margin: 0 0 1rem;
+  font-size: 1.2rem;
+  line-height: 1.55;
+}
+
+.byline {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 3rem;
+  margin: 2.5rem 0 0;
+  padding: 1.75rem 0 0;
+  list-style: none;
+  border-top: 1px solid var(--border);
+}
+
+.hero-stats strong {
+  display: block;
+  font-size: 2.4rem;
+  line-height: 1;
+  color: var(--accent);
+  
+}
+
+.hero-stats span {
+  display: block;
+  max-width: 14rem;
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}

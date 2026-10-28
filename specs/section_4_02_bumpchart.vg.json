@@ -1,0 +1,145 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "description": "How children's favourite activities change rank as they grow up, 2025",
+    "data": {
+        "url": "data/kids_activity_ranks.csv"
+    },
+    "width": "container",
+    "height": 400,
+    
+    "encoding": {
+        "x": {
+            "field": "age_group",
+            "type": "ordinal",
+            "sort": [
+                "0-4",
+                "5-8",
+                "9-11",
+                "12-14"
+            ],
+            "title": "Age of child",
+            "axis": {
+                "orient": "top",
+                "labelAngle": 0,
+                "domain": false,
+                "ticks": false
+            }
+        },
+        "y": {
+            "field": "rank",
+            "type": "ordinal",
+            "title": "Rank (1 = most popular)",
+            "axis": {
+                "domain": false,
+                "ticks": false,
+                "titlePadding": 25
+            }
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "line",
+                "strokeWidth": 3,
+                "point": {
+                    "filled": true,
+                    "size": 110
+                }
+            },
+            "encoding": {
+                "detail": {
+                    "field": "activity",
+                    "type": "nominal"
+                },
+                "color": {
+                    "condition": {
+                        "test": "indexof(['Swimming','Soccer','Gymnastics','Dancing','Netball','Basketball'], datum.activity) >= 0",
+                        "field": "activity",
+                        "type": "nominal",
+                        "scale": {
+                            "domain": [
+                                "Swimming",
+                                "Soccer",
+                                "Gymnastics",
+                                "Dancing",
+                                "Netball",
+                                "Basketball"
+                            ],
+                            "range": [
+                                "#2b5aa8",
+                                "#2a9d8f",
+                                "#e08a2c",
+                                "#8e44ad",
+                                "#d6456b",
+                                "#7a8f3a"
+                            ]
+                        },
+                        "legend": null
+                    },
+                    "value": "#c9c6bb"
+                },
+                "tooltip": [
+                    {
+                        "field": "activity",
+                        "type": "nominal",
+                        "title": "Activity"
+                    },
+                    {
+                        "field": "age_group",
+                        "type": "nominal",
+                        "title": "Age"
+                    },
+                    {
+                        "field": "rank",
+                        "type": "quantitative",
+                        "title": "Rank"
+                    },
+                    {
+                        "field": "rate_pct",
+                        "type": "quantitative",
+                        "format": ".1f",
+                        "title": "% of children doing it"
+                    }
+                ]
+            }
+        },
+        {
+            "transform": [
+                {
+                    "filter": "datum.age_group === '0-4'"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "align": "right",
+                "dx": -14,
+                "fontSize": 12
+            },
+            "encoding": {
+                "text": {
+                    "field": "activity",
+                    "type": "nominal"
+                }
+            }
+        },
+        {
+            "transform": [
+                {
+                    "filter": "datum.age_group === '12-14'"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "dx": 14,
+                "fontSize": 12
+            },
+            "encoding": {
+                "text": {
+                    "field": "activity",
+                    "type": "nominal"
+                }
+            }
+        }
+    ]
+}
